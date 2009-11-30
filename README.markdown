@@ -24,7 +24,7 @@ Itemizer support is pretty basic at the moment, and will remain so until I can f
 
 Clone this project somewhere, with the following:
 
-    git clone git://github.com/doches/latex.sugar.git ./Latex.sugar
+    git clone git://github.com/doches/Latex.sugar.git ./Latex.sugar
 
 And then link it to your syntaxes directory:
 
