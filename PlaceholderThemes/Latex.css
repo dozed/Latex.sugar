@@ -1,0 +1,33 @@
+/*
+	@placeholder latex
+*/
+
+latex structural.header.section {
+	color:  #339933;
+	font-weight: bold;
+}
+
+latex structural.context {
+	color:  #dd7777;
+}
+
+latex identifier.function {
+	color:  #9999ff;
+}
+
+latex delimiter {
+	color:  #aaaaaa;
+}
+
+latex metadata.processing {
+	color:  #aaaaaa;
+}
+
+latex structural.context.emphasis {
+	font-weight:  bold;
+	color:  #000000;
+}
+
+latex structural.separator {
+	color:  #666;
+}
