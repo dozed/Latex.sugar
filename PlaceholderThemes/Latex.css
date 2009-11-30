@@ -2,8 +2,11 @@
 	@placeholder latex
 */
 
-latex structural.header.section {
+latex structural.header {
 	color:  #669922;
+}
+
+latex structural.header.section {
 	font-weight: bold;
 }
 

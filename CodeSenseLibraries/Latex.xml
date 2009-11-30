@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+    <set name="net.texasexpat.latex.simple">
+	    <completion string="maketitle" />
+	    <completion string="hline" />
+	    <completion string="newline" />
+	    <completion string="noindent" />
+	    <completion string="medskip" />
+	    <completion string="par" />
+	    <completion string="large" />
+	    <completion string="small" />
+	    <completion string="noindent" />
+	</set>
+	
+    <set name="net.texasexpat.latex.functions">
+        <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${0:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
+	    <completion string="begin" />
+	    <completion string="end" />
+	    <completion string="textbf" />
+	    <completion string="emph" />
+	    <completion string="textsc" />
+	    <completion string="usepackage" />
+	    <completion string="section" />
+	    <completion string="subsection" />
+	    <completion string="subsubsection" />
+	    <completion string="chapter" />
+	    <completion string="part" />
+	    <completion string="title" />
+	    <completion string="author" />
+	    <completion string="ref" />
+	    <completion string="label" />
+	    <completion string="bibliographystyle" />
+	    <completion string="paragraph" />
+	    <completion string="cite" />
+	    <completion string="usepackage" />
+    </set>
+</codesense>
