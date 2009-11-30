@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<itemizer>
+	<recipe name="built-in.self-closing-tag.xml.collection">
+		<selector>latex.heading:has-child(section:capture(name))</selector>
+	</recipe>
+</itemizer>

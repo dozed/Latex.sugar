@@ -1,5 +1,5 @@
-Latex.sugar
-===========
+# Latex.sugar
+
 A Sugar for the delicious [Espresso text editor][espresso] to provide syntax highlighting (and, one day, itemizers) for LaTeX documents. Supports the [Espresso Sugar Standard][standard]
 
   [espresso]: <http://macrabbit.com/espresso/>
@@ -7,8 +7,8 @@ A Sugar for the delicious [Espresso text editor][espresso] to provide syntax hig
   [standard]: <http://github.com/elliottcable/espresso-sugar-standard>
     "ellitotcable's Espresso Sugar Standard on Github"
 
-Using
------
+## Using
+
 Clone this project somewhere, with the following:
 
     git clone git://github.com/doches/latex.sugar.git ./Latex.sugar
