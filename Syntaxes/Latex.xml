@@ -36,6 +36,9 @@
 			<capture number="5" name="structural.context" />
 			<capture number="6" name="delimiter" />
 		</zone>
+		<zone name="metadata.comment">
+			<expression>\%.*</expression>
+		</zone>
 		<zone name="latex.function.noargs">
 			<expression>(\\)([a-zA-Z]+)</expression>
 			<capture number="1" name="delimiter" />

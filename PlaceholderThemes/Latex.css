@@ -3,7 +3,7 @@
 */
 
 latex structural.header.section {
-	color:  #339933;
+	color:  #669922;
 	font-weight: bold;
 }
 
@@ -30,4 +30,8 @@ latex structural.context.emphasis {
 
 latex structural.separator {
 	color:  #666;
+}
+
+latex metadata.comment {
+	color:  #88bb44;
 }
