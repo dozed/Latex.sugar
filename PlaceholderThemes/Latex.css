@@ -12,10 +12,12 @@ latex structural.header.section {
 
 latex structural.context {
 	color:  #dd7777;
+	spell-check: disabled;
 }
 
 latex identifier.function {
 	color:  #9999ff;
+	spell-check: disabled;
 }
 
 latex delimiter {
@@ -24,11 +26,13 @@ latex delimiter {
 
 latex metadata.processing {
 	color:  #aaaaaa;
+	spell-check: disabled;
 }
 
 latex structural.context.emphasis {
 	font-weight:  bold;
 	color:  #000000;
+	spell-check: enabled;
 }
 
 latex structural.separator {
