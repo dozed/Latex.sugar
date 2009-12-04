@@ -42,3 +42,6 @@ latex structural.separator {
 latex metadata.comment {
 	color:  #88bb44;
 }
+
+latex metadata.comment.multiline {
+}
