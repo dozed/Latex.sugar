@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Latex */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Latex */,
+		);
+		codeSenseManager = F8446131117E37AD003FBBDF /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1091,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					704,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293580365;
+			PBXWorkspaceStateSaveDate = 293580365;
+		};
+		perUserProjectItems = {
+			F80559F6117FAE50003E133D /* PBXTextBookmark */ = F80559F6117FAE50003E133D /* PBXTextBookmark */;
+			F8055A47117FAFE9003E133D /* PBXTextBookmark */ = F8055A47117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A48117FAFE9003E133D /* PBXTextBookmark */ = F8055A48117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4A117FAFE9003E133D /* PBXTextBookmark */ = F8055A4A117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4C117FAFE9003E133D /* PBXTextBookmark */ = F8055A4C117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4D117FAFE9003E133D /* PBXTextBookmark */ = F8055A4D117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A87117FB05E003E133D /* PBXTextBookmark */ = F8055A87117FB05E003E133D /* PBXTextBookmark */;
+			F8055A89117FB05E003E133D /* PBXTextBookmark */ = F8055A89117FB05E003E133D /* PBXTextBookmark */;
+			F8055A94117FB068003E133D /* PBXTextBookmark */ = F8055A94117FB068003E133D /* PBXTextBookmark */;
+			F8055A95117FB068003E133D /* PBXBookmark */ = F8055A95117FB068003E133D /* PBXBookmark */;
+			F8055A96117FB068003E133D /* PBXTextBookmark */ = F8055A96117FB068003E133D /* PBXTextBookmark */;
+			F8A7FBA6117E64E5009CDB0C = F8A7FBA6117E64E5009CDB0C /* PBXTextBookmark */;
+			F8A7FBB4117E6704009CDB0C = F8A7FBB4117E6704009CDB0C /* PBXTextBookmark */;
+			F8A7FBC2117E686E009CDB0C = F8A7FBC2117E686E009CDB0C /* PBXBookmark */;
+			F8A7FBC5117E6A56009CDB0C = F8A7FBC5117E6A56009CDB0C /* PBXTextBookmark */;
+			F8A7FBC6117E6A56009CDB0C = F8A7FBC6117E6A56009CDB0C /* PBXTextBookmark */;
+			F8A7FBC8117E6A56009CDB0C = F8A7FBC8117E6A56009CDB0C /* PBXTextBookmark */;
+			F8A7FBCA117E6A56009CDB0C = F8A7FBCA117E6A56009CDB0C /* PBXTextBookmark */;
+		};
+		sourceControlManager = F8446130117E37AD003FBBDF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Latex */ = {
+		activeExec = 0;
+	};
+	F80559F6117FAE50003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8A7FBCB117E6A56009CDB0C /* EspressoItemizerCore.h */;
+		name = "EspressoItemizerCore.h: 70";
+		rLen = 208;
+		rLoc = 2778;
+		rType = 0;
+		vrLen = 1909;
+		vrLoc = 0;
+	};
+	F8055A0A117FAFBC003E133D /* LTXSectionItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = LTXSectionItem.h;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	F8055A47117FAFE9003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8A7FBCB117E6A56009CDB0C /* EspressoItemizerCore.h */;
+		name = "EspressoItemizerCore.h: 70";
+		rLen = 208;
+		rLoc = 2778;
+		rType = 0;
+		vrLen = 1909;
+		vrLoc = 0;
+	};
+	F8055A48117FAFE9003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A49117FAFE9003E133D /* Latex.xml */;
+		name = "Latex.xml: 8";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 0;
+	};
+	F8055A49117FAFE9003E133D /* Latex.xml */ = {
+		isa = PBXFileReference;
+		name = Latex.xml;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/CodeSenseProviders/Latex.xml;
+		sourceTree = "<absolute>";
+	};
+	F8055A4A117FAFE9003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A4B117FAFE9003E133D /* Itemizers.xml */;
+		name = "Itemizers.xml: 5";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	F8055A4B117FAFE9003E133D /* Itemizers.xml */ = {
+		isa = PBXFileReference;
+		name = Itemizers.xml;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/Itemizers/Itemizers.xml;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
+			sepNavSelRange = "{108, 0}";
+			sepNavVisRange = "{0, 1107}";
+		};
+	};
+	F8055A4C117FAFE9003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A0A117FAFBC003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F8055A4D117FAFE9003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A0A117FAFBC003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F8055A84117FB05A003E133D /* LTXSectionItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	F8055A87117FB05E003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A88117FB05E003E133D /* Itemizers.xml */;
+		name = "Itemizers.xml: 5";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 0;
+	};
+	F8055A88117FB05E003E133D /* Itemizers.xml */ = {
+		isa = PBXFileReference;
+		name = Itemizers.xml;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/Itemizers/Itemizers.xml;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
+			sepNavSelRange = "{108, 0}";
+			sepNavVisRange = "{0, 1107}";
+		};
+	};
+	F8055A89117FB05E003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A4B117FAFE9003E133D /* Itemizers.xml */;
+		name = "Itemizers.xml: 5";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	F8055A94117FB068003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A88117FB05E003E133D /* Itemizers.xml */;
+		name = "Itemizers.xml: 5";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	F8055A95117FB068003E133D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F8055A84117FB05A003E133D /* LTXSectionItem.h */;
+	};
+	F8055A96117FB068003E133D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A84117FB05A003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F8446130117E37AD003FBBDF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F8446131117E37AD003FBBDF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F8552B1F117E5D42006DF6F5 /* LTXSectionItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = LTXSectionItem.h;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1269, 580}}";
+			sepNavSelRange = "{218, 10}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	F8552B20117E5D42006DF6F5 /* LTXSectionItem.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = LTXSectionItem.m;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1741, 1027}}";
+			sepNavSelRange = "{1129, 75}";
+			sepNavVisRange = "{924, 663}";
+		};
+	};
+	F8552B51117E5E15006DF6F5 /* Itemizers.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = Itemizers.xml;
+		path = /Users/stefan/Workspaces/Xcode/Latex/Itemizers/Itemizers.xml;
+		sourceTree = "<absolute>";
+	};
+	F8A7FBA6117E64E5009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8552B1F117E5D42006DF6F5 /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 13";
+		rLen = 10;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F8A7FBB4117E6704009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8552B51117E5E15006DF6F5 /* Itemizers.xml */;
+		name = "Itemizers.xml: 4";
+		rLen = 5;
+		rLoc = 79;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 0;
+	};
+	F8A7FBBE117E6861009CDB0C /* page_white_go.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = page_white_go.png;
+		path = /Users/stefan/Workspaces/Github/LatexSugar/page_white_go.png;
+		sourceTree = "<absolute>";
+	};
+	F8A7FBC2117E686E009CDB0C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F8A7FBBE117E6861009CDB0C /* page_white_go.png */;
+	};
+	F8A7FBC5117E6A56009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8552B20117E5D42006DF6F5 /* LTXSectionItem.m */;
+		name = "LTXSectionItem.m: 51";
+		rLen = 75;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 924;
+	};
+	F8A7FBC6117E6A56009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8A7FBC7117E6A56009CDB0C /* EspressoItemizer.h */;
+		name = "EspressoItemizer.h: 23";
+		rLen = 0;
+		rLoc = 810;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	F8A7FBC7117E6A56009CDB0C /* EspressoItemizer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = EspressoItemizer.h;
+		path = /Users/stefan/Desktop/Headers/EspressoItemizer.h;
+		sourceTree = "<absolute>";
+	};
+	F8A7FBC8117E6A56009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8A7FBC9117E6A56009CDB0C /* EspressoItemizerCore.h */;
+		name = "EspressoItemizerCore.h: 33";
+		rLen = 20;
+		rLoc = 1264;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 3461;
+	};
+	F8A7FBC9117E6A56009CDB0C /* EspressoItemizerCore.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = EspressoItemizerCore.h;
+		path = /Users/stefan/Desktop/Headers/EspressoItemizerCore.h;
+		sourceTree = "<absolute>";
+	};
+	F8A7FBCA117E6A56009CDB0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8A7FBCB117E6A56009CDB0C /* EspressoItemizerCore.h */;
+		name = "EspressoItemizerCore.h: 70";
+		rLen = 208;
+		rLoc = 2778;
+		rType = 0;
+		vrLen = 1842;
+		vrLoc = 0;
+	};
+	F8A7FBCB117E6A56009CDB0C /* EspressoItemizerCore.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = EspressoItemizerCore.h;
+		path = /Users/stefan/Desktop/Headers/EspressoItemizerCore.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 1742}}";
+			sepNavSelRange = "{2778, 208}";
+			sepNavVisRange = "{0, 1909}";
+		};
+	};
+}
