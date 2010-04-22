@@ -211,7 +211,6 @@
 				<string>active-combo-popup</string>
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
-				<string>servicesModuleCVS</string>
 				<string>debugger-enable-breakpoints</string>
 				<string>build-and-go</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
@@ -267,7 +266,7 @@
 								<string>089C166AFE841209C02AAC07</string>
 								<string>F8055A82117FB05A003E133D</string>
 								<string>F8055A83117FB05A003E133D</string>
-								<string>089C1671FE841209C02AAC07</string>
+								<string>F8552A3F117E592E006DF6F5</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -275,6 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>16</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LTXSectionItem.h</string>
+								<string>Latex.xml</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +325,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>LTXSectionItem.h</string>
+										<string>Latex.xml</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F843F4AF11807EE900070EA8</string>
+										<string>F843F5B71180981700070EA8</string>
 										<key>history</key>
 										<array>
-											<string>F8055A48117FAFE9003E133D</string>
-											<string>F8055A94117FB068003E133D</string>
-											<string>F8D72F9711807E9200DE09F8</string>
+											<string>F843F57211808EF000070EA8</string>
+											<string>F843F57311808EF000070EA8</string>
+											<string>F843F57511808EF000070EA8</string>
+											<string>F843F57711808EF000070EA8</string>
+											<string>F843F59C1180937600070EA8</string>
+											<string>F843F5A01180937600070EA8</string>
+											<string>F843F5A11180937600070EA8</string>
+											<string>F843F5A21180937600070EA8</string>
+											<string>F843F5A41180937600070EA8</string>
+											<string>F843F5AB1180938E00070EA8</string>
+											<string>F843F5B3118094CC00070EA8</string>
+											<string>F843F5B4118094CC00070EA8</string>
+											<string>F843F5B5118094CC00070EA8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +356,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1139, 497}}</string>
+								<string>{{0, 0}, {1139, 506}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 106 1440 772 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>497pt</string>
+							<string>506pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,14 +376,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 502}, {1139, 229}}</string>
+								<string>{{0, 511}, {1139, 220}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 106 1440 772 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>229pt</string>
+							<string>220pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -557,7 +568,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>LTXSubSectionItem.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -574,6 +585,8 @@
 							<string>299pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

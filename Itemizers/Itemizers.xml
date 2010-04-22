@@ -9,7 +9,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.sub">
-		<class>ESBaseItem</class>
+		<class>LTXSubSectionItem</class>
 		<start-selector>sub > sub:capture(name)</start-selector>
 		<end-selector>sub > sub:capture(name)</end-selector>
 		<subrecipes>
@@ -25,7 +25,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.input">
-		<class>ESBaseItem</class>
+		<class>LTXInputItem</class>
 		<selector>input > input:capture(name)</selector>
 	</recipe>
 	<recipe name="structural.header.paragraph">

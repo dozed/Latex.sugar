@@ -50,12 +50,13 @@
 
 - (CEItemDecorationType)decorationType
 {
-	return CEItemDecorationDefault;
+//	return CEItemDecorationDefault;
+	return CEItemDecorationDynamicTag;
 }
 
 - (NSColor *)backgroundColor
 {
-	return [NSColor yellowColor];
+	return [NSColor blueColor];
 }
 
 - (NSImage *)image
@@ -63,7 +64,8 @@
 	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"page_white_go" ofType:@"png"];
 	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
 	[image autorelease];
-	return image;
+//	return image;
+	return nil;
 }
 
 - (BOOL)isTextualizer
@@ -75,4 +77,15 @@
 {
 	return name;
 }
+
+//- (NSString *)secondaryDescription
+//{
+//	return name;
+//}
+
+//- (BOOL)shouldAppendSecondaryDescriptionToTitle
+//{
+//	return YES;
+//}
+
 @end
