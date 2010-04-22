@@ -14,7 +14,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1091,
+					900,
 					20,
 					48,
 					43,
@@ -53,21 +53,23 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293580365;
-			PBXWorkspaceStateSaveDate = 293580365;
+			PBXPerProjectTemplateStateSaveDate = 293633707;
+			PBXWorkspaceStateSaveDate = 293633707;
 		};
 		perUserProjectItems = {
-			F80559F6117FAE50003E133D /* PBXTextBookmark */ = F80559F6117FAE50003E133D /* PBXTextBookmark */;
-			F8055A47117FAFE9003E133D /* PBXTextBookmark */ = F8055A47117FAFE9003E133D /* PBXTextBookmark */;
-			F8055A48117FAFE9003E133D /* PBXTextBookmark */ = F8055A48117FAFE9003E133D /* PBXTextBookmark */;
-			F8055A4A117FAFE9003E133D /* PBXTextBookmark */ = F8055A4A117FAFE9003E133D /* PBXTextBookmark */;
-			F8055A4C117FAFE9003E133D /* PBXTextBookmark */ = F8055A4C117FAFE9003E133D /* PBXTextBookmark */;
-			F8055A4D117FAFE9003E133D /* PBXTextBookmark */ = F8055A4D117FAFE9003E133D /* PBXTextBookmark */;
-			F8055A87117FB05E003E133D /* PBXTextBookmark */ = F8055A87117FB05E003E133D /* PBXTextBookmark */;
-			F8055A89117FB05E003E133D /* PBXTextBookmark */ = F8055A89117FB05E003E133D /* PBXTextBookmark */;
-			F8055A94117FB068003E133D /* PBXTextBookmark */ = F8055A94117FB068003E133D /* PBXTextBookmark */;
-			F8055A95117FB068003E133D /* PBXBookmark */ = F8055A95117FB068003E133D /* PBXBookmark */;
-			F8055A96117FB068003E133D /* PBXTextBookmark */ = F8055A96117FB068003E133D /* PBXTextBookmark */;
+			F80559F6117FAE50003E133D = F80559F6117FAE50003E133D /* PBXTextBookmark */;
+			F8055A47117FAFE9003E133D = F8055A47117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A48117FAFE9003E133D = F8055A48117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4A117FAFE9003E133D = F8055A4A117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4C117FAFE9003E133D = F8055A4C117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A4D117FAFE9003E133D = F8055A4D117FAFE9003E133D /* PBXTextBookmark */;
+			F8055A87117FB05E003E133D = F8055A87117FB05E003E133D /* PBXTextBookmark */;
+			F8055A89117FB05E003E133D = F8055A89117FB05E003E133D /* PBXTextBookmark */;
+			F8055A94117FB068003E133D = F8055A94117FB068003E133D /* PBXTextBookmark */;
+			F8055A95117FB068003E133D = F8055A95117FB068003E133D /* PBXBookmark */;
+			F8055A96117FB068003E133D = F8055A96117FB068003E133D /* PBXTextBookmark */;
+			F843F4A011807EC400070EA8 /* PBXTextBookmark */ = F843F4A011807EC400070EA8 /* PBXTextBookmark */;
+			F843F4AF11807EE900070EA8 /* PBXTextBookmark */ = F843F4AF11807EE900070EA8 /* PBXTextBookmark */;
 			F8A7FBA6117E64E5009CDB0C = F8A7FBA6117E64E5009CDB0C /* PBXTextBookmark */;
 			F8A7FBB4117E6704009CDB0C = F8A7FBB4117E6704009CDB0C /* PBXTextBookmark */;
 			F8A7FBC2117E686E009CDB0C = F8A7FBC2117E686E009CDB0C /* PBXBookmark */;
@@ -75,6 +77,7 @@
 			F8A7FBC6117E6A56009CDB0C = F8A7FBC6117E6A56009CDB0C /* PBXTextBookmark */;
 			F8A7FBC8117E6A56009CDB0C = F8A7FBC8117E6A56009CDB0C /* PBXTextBookmark */;
 			F8A7FBCA117E6A56009CDB0C = F8A7FBCA117E6A56009CDB0C /* PBXTextBookmark */;
+			F8D72F9711807E9200DE09F8 = F8D72F9711807E9200DE09F8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F8446130117E37AD003FBBDF /* Source Control */;
 		userBuildSettings = {
@@ -100,11 +103,6 @@
 		name = LTXSectionItem.h;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 257}";
-		};
 	};
 	F8055A47117FAFE9003E133D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -128,6 +126,7 @@
 	};
 	F8055A49117FAFE9003E133D /* Latex.xml */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
 		name = Latex.xml;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/CodeSenseProviders/Latex.xml;
 		sourceTree = "<absolute>";
@@ -144,14 +143,10 @@
 	};
 	F8055A4B117FAFE9003E133D /* Itemizers.xml */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
 		name = Itemizers.xml;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/Itemizers/Itemizers.xml;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
-			sepNavSelRange = "{108, 0}";
-			sepNavVisRange = "{0, 1107}";
-		};
 	};
 	F8055A4C117FAFE9003E133D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -175,8 +170,8 @@
 	};
 	F8055A84117FB05A003E133D /* LTXSectionItem.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 465}}";
+			sepNavSelRange = "{247, 0}";
 			sepNavVisRange = "{0, 257}";
 		};
 	};
@@ -192,14 +187,10 @@
 	};
 	F8055A88117FB05E003E133D /* Itemizers.xml */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
 		name = Itemizers.xml;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/Itemizers/Itemizers.xml;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1269, 574}}";
-			sepNavSelRange = "{108, 0}";
-			sepNavVisRange = "{0, 1107}";
-		};
 	};
 	F8055A89117FB05E003E133D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -235,6 +226,26 @@
 		vrLen = 257;
 		vrLoc = 0;
 	};
+	F843F4A011807EC400070EA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A84117FB05A003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F843F4AF11807EE900070EA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A84117FB05A003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 14";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
 	F8446130117E37AD003FBBDF /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -256,11 +267,6 @@
 		name = LTXSectionItem.h;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1269, 580}}";
-			sepNavSelRange = "{218, 10}";
-			sepNavVisRange = "{0, 257}";
-		};
 	};
 	F8552B20117E5D42006DF6F5 /* LTXSectionItem.m */ = {
 		isa = PBXFileReference;
@@ -269,11 +275,6 @@
 		name = LTXSectionItem.m;
 		path = /Users/stefan/Workspaces/Github/LatexSugar/LTXSectionItem.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1741, 1027}}";
-			sepNavSelRange = "{1129, 75}";
-			sepNavVisRange = "{924, 663}";
-		};
 	};
 	F8552B51117E5E15006DF6F5 /* Itemizers.xml */ = {
 		isa = PBXFileReference;
@@ -373,10 +374,15 @@
 		name = EspressoItemizerCore.h;
 		path = /Users/stefan/Desktop/Headers/EspressoItemizerCore.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1370, 1742}}";
-			sepNavSelRange = "{2778, 208}";
-			sepNavVisRange = "{0, 1909}";
-		};
+	};
+	F8D72F9711807E9200DE09F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8055A84117FB05A003E133D /* LTXSectionItem.h */;
+		name = "LTXSectionItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
 	};
 }
