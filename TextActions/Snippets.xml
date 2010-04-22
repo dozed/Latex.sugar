@@ -13,7 +13,11 @@
 
 \\usepackage{graphicx}
 \\usepackage{times}
+\\usepackage{amsmath}
 \\usepackage{fullpage}
+
+\\bibpunct[; ]{(}{)}{,}{a}{}{;}
+\\bibliographystyle{plainnat}
 
 \\title{Title}
 \\author{Author}
