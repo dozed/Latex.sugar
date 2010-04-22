@@ -1,9 +1,35 @@
 <?xml version="1.0"?>
 <itemizer>
 	<recipe name="structural.header.section">
-		<selector>section > section:capture(name)</selector>
+		<class>LTXSectionItem</class>
+		<start-selector>section > section:capture(name)</start-selector>
+		<end-selector>section > section:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
 	</recipe>
-	<recipe name="structural.header.tertiary">
-		<selector>sub > tertiary:capture(name)</selector>
+	<recipe name="structural.header.sub">
+		<class>ESBaseItem</class>
+		<start-selector>sub > sub:capture(name)</start-selector>
+		<end-selector>sub > sub:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.subsub">
+		<class>ESBaseItem</class>
+		<start-selector>subsub > subsub:capture(name)</start-selector>
+		<end-selector>subsub > subsub:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.input">
+		<class>ESBaseItem</class>
+		<selector>input > input:capture(name)</selector>
+	</recipe>
+	<recipe name="structural.header.paragraph">
+		<class>ESBaseItem</class>
+		<selector>paragraph > paragraph:capture(name)</selector>
 	</recipe>
 </itemizer>

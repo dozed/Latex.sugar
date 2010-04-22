@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F8055A74117FB022003E133D /* page_white_go.png in Resources */ = {isa = PBXBuildFile; fileRef = F8055A73117FB022003E133D /* page_white_go.png */; };
+		F8055A86117FB05A003E133D /* LTXSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8055A85117FB05A003E133D /* LTXSectionItem.m */; };
+		F8552AE0117E5BC9006DF6F5 /* Latex.sugar in Copy To Espresso */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* Latex.sugar */; };
+		F8552AFA117E5C4D006DF6F5 /* CodeSenseLibraries in Resources */ = {isa = PBXBuildFile; fileRef = F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */; };
+		F8552AFB117E5C4D006DF6F5 /* CodeSenseProviders in Resources */ = {isa = PBXBuildFile; fileRef = F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */; };
+		F8552AFC117E5C4D006DF6F5 /* ContextualSettings in Resources */ = {isa = PBXBuildFile; fileRef = F8552AEA117E5C4D006DF6F5 /* ContextualSettings */; };
+		F8552AFD117E5C4D006DF6F5 /* Itemizers in Resources */ = {isa = PBXBuildFile; fileRef = F8552AED117E5C4D006DF6F5 /* Itemizers */; };
+		F8552AFE117E5C4D006DF6F5 /* Languages.xml in Resources */ = {isa = PBXBuildFile; fileRef = F8552AF0117E5C4D006DF6F5 /* Languages.xml */; };
+		F8552AFF117E5C4D006DF6F5 /* PlaceholderThemes in Resources */ = {isa = PBXBuildFile; fileRef = F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */; };
+		F8552B00117E5C4D006DF6F5 /* Syntaxes in Resources */ = {isa = PBXBuildFile; fileRef = F8552AF4117E5C4D006DF6F5 /* Syntaxes */; };
+		F8552B01117E5C4D006DF6F5 /* TextActions in Resources */ = {isa = PBXBuildFile; fileRef = F8552AF7117E5C4D006DF6F5 /* TextActions */; };
+		F8552B02117E5C53006DF6F5 /* CodeSenseLibraries in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */; };
+		F8552B03117E5C53006DF6F5 /* CodeSenseProviders in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */; };
+		F8552B04117E5C53006DF6F5 /* ContextualSettings in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AEA117E5C4D006DF6F5 /* ContextualSettings */; };
+		F8552B05117E5C53006DF6F5 /* Itemizers in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AED117E5C4D006DF6F5 /* Itemizers */; };
+		F8552B06117E5C53006DF6F5 /* Languages.xml in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF0117E5C4D006DF6F5 /* Languages.xml */; };
+		F8552B07117E5C53006DF6F5 /* PlaceholderThemes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */; };
+		F8552B08117E5C53006DF6F5 /* Syntaxes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF4117E5C4D006DF6F5 /* Syntaxes */; };
+		F8552B09117E5C53006DF6F5 /* TextActions in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF7117E5C4D006DF6F5 /* TextActions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8552A85117E5990006DF6F5 /* Copy XML Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				F8552B02117E5C53006DF6F5 /* CodeSenseLibraries in Copy XML Files */,
+				F8552B03117E5C53006DF6F5 /* CodeSenseProviders in Copy XML Files */,
+				F8552B04117E5C53006DF6F5 /* ContextualSettings in Copy XML Files */,
+				F8552B05117E5C53006DF6F5 /* Itemizers in Copy XML Files */,
+				F8552B06117E5C53006DF6F5 /* Languages.xml in Copy XML Files */,
+				F8552B07117E5C53006DF6F5 /* PlaceholderThemes in Copy XML Files */,
+				F8552B08117E5C53006DF6F5 /* Syntaxes in Copy XML Files */,
+				F8552B09117E5C53006DF6F5 /* TextActions in Copy XML Files */,
+			);
+			name = "Copy XML Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8552ACB117E5BA8006DF6F5 /* Copy To Espresso */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Application Support/Espresso/Sugars";
+			dstSubfolderSpec = 0;
+			files = (
+				F8552AE0117E5BC9006DF6F5 /* Latex.sugar in Copy To Espresso */,
+			);
+			name = "Copy To Espresso";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* Latex_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Latex_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* Latex.sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Latex.sugar; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F8055A73117FB022003E133D /* page_white_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_white_go.png; sourceTree = "<group>"; };
+		F8055A84117FB05A003E133D /* LTXSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXSectionItem.h; sourceTree = "<group>"; };
+		F8055A85117FB05A003E133D /* LTXSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXSectionItem.m; sourceTree = "<group>"; };
+		F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeSenseLibraries; sourceTree = "<group>"; };
+		F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeSenseProviders; sourceTree = "<group>"; };
+		F8552AEA117E5C4D006DF6F5 /* ContextualSettings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ContextualSettings; sourceTree = "<group>"; };
+		F8552AED117E5C4D006DF6F5 /* Itemizers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Itemizers; sourceTree = "<group>"; };
+		F8552AF0117E5C4D006DF6F5 /* Languages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Languages.xml; sourceTree = "<group>"; };
+		F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlaceholderThemes; sourceTree = "<group>"; };
+		F8552AF4117E5C4D006DF6F5 /* Syntaxes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Syntaxes; sourceTree = "<group>"; };
+		F8552AF7117E5C4D006DF6F5 /* TextActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextActions; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Latex */ = {
+			isa = PBXGroup;
+			children = (
+				F8055A82117FB05A003E133D /* Code */,
+				F8055A72117FB022003E133D /* Icons */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				F8552A3F117E592E006DF6F5 /* XML Based */,
+			);
+			name = Latex;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* Latex.sugar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Latex_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F8055A72117FB022003E133D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F8055A73117FB022003E133D /* page_white_go.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		F8055A82117FB05A003E133D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F8055A83117FB05A003E133D /* Itemizers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		F8055A83117FB05A003E133D /* Itemizers */ = {
+			isa = PBXGroup;
+			children = (
+				F8055A84117FB05A003E133D /* LTXSectionItem.h */,
+				F8055A85117FB05A003E133D /* LTXSectionItem.m */,
+			);
+			path = Itemizers;
+			sourceTree = "<group>";
+		};
+		F8552A3F117E592E006DF6F5 /* XML Based */ = {
+			isa = PBXGroup;
+			children = (
+				F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */,
+				F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */,
+				F8552AEA117E5C4D006DF6F5 /* ContextualSettings */,
+				F8552AED117E5C4D006DF6F5 /* Itemizers */,
+				F8552AF0117E5C4D006DF6F5 /* Languages.xml */,
+				F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */,
+				F8552AF4117E5C4D006DF6F5 /* Syntaxes */,
+				F8552AF7117E5C4D006DF6F5 /* TextActions */,
+			);
+			name = "XML Based";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Latex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Latex" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				F8552A85117E5990006DF6F5 /* Copy XML Files */,
+				F8552ACB117E5BA8006DF6F5 /* Copy To Espresso */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Latex;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Latex;
+			productReference = 8D5B49B6048680CD000E48DA /* Latex.sugar */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Latex" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Latex */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Latex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				F8552AFA117E5C4D006DF6F5 /* CodeSenseLibraries in Resources */,
+				F8552AFB117E5C4D006DF6F5 /* CodeSenseProviders in Resources */,
+				F8552AFC117E5C4D006DF6F5 /* ContextualSettings in Resources */,
+				F8552AFD117E5C4D006DF6F5 /* Itemizers in Resources */,
+				F8552AFE117E5C4D006DF6F5 /* Languages.xml in Resources */,
+				F8552AFF117E5C4D006DF6F5 /* PlaceholderThemes in Resources */,
+				F8552B00117E5C4D006DF6F5 /* Syntaxes in Resources */,
+				F8552B01117E5C4D006DF6F5 /* TextActions in Resources */,
+				F8055A74117FB022003E133D /* page_white_go.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8055A86117FB05A003E133D /* LTXSectionItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Latex_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Latex;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Latex_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Latex;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_PATH = /Applications/Espresso.app;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = "$(APPLICATION_PATH)/Contents/MacOS/Espresso";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(APPLICATION_PATH)/Contents/Headers";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_PATH = /Applications/Espresso.app;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = "$(APPLICATION_PATH)/Contents/MacOS/Espresso";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(APPLICATION_PATH)/Contents/Headers";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Latex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Latex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

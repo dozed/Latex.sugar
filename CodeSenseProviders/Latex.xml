@@ -5,7 +5,10 @@
 		
 		<completions>net.texasexpat.latex.simple</completions>
 		<completions>net.texasexpat.latex.functions</completions>
-		<complete-match>[\?\$a-zA-Z0-9-_\>]+</complete-match>
+		<completions>net.texasexpat.latex.functions.binary</completions>
+		<completions>net.texasexpat.latex.functions.binaryalt</completions>
+		<completions>net.texasexpat.latex.simple.intext</completions>
+		<complete-match>[\?\$\\a-zA-Z0-9-_\>\-]+</complete-match>
 	</provider>
     
 </codesense>
