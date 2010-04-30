@@ -9,7 +9,7 @@ A Sugar for the delicious [Espresso text editor][espresso] to provide syntax hig
 
 ## Use
 
-Once installed Espresso should automatically recognize your LaTeX files, provided they end in `.tex`. In addition to syntax highlighting for some common LaTeX features (functions & arguments, comments, (sub)sections, and text formatting, among others!) this Sugar provides basic itemizers (things that show up in the Navigator pane), simple code completion (for oft-used functions like `\cite` and `\begin{}`), and a few useful snippets. 
+Once installed Espresso should automatically recognize your LaTeX files, provided they end in `.tex`. In addition to syntax highlighting for some common LaTeX features (functions & arguments, comments, (sub)sections, and text formatting, among others!) this Sugar provides itemizers (things that show up in the Navigator pane), simple code completion (for oft-used functions like `\cite` and `\begin{}`), and a few useful snippets. 
 
 There are textual shortcuts for several of the snippets:
 
@@ -18,7 +18,7 @@ There are textual shortcuts for several of the snippets:
 +  **Packages** Type `use[TAB]` followed by the name of a package to insert a `\usepackage{foo}` line at the cursor.
 +  **Bibliography** Type `bib[TAB]` followed by the filename of your `.bib` file to insert a bibliography.
 
-Itemizer support is pretty basic at the moment, and will remain so until I can figure out how to recognize the end of a (sub)section without writing Cocoa objects...
+Itemizer support is working now.
 
 ## Installation
 
@@ -32,7 +32,4 @@ And then link it to your syntaxes directory:
 
 ## Bugs
 
-+  CodeSense completions don't require a preceding `\\`, so if you type (for example) 'begin' in the middle of your text, Espresso will prompt you to replace it with 'begin{cursor_here}'. This is annoying -- but I can't figure out how include backslashes in the CodeSenseLibrary XML. 
-+  Subsubsections aren't colored (or marked) as anything other than functions-with-arguments -- this is my compromise to get them not to show up as Itemizers. Less than ideal.
-+  Speaking of Itemizers, it'd be great if we could get some nesting and code folding going on...
-+  Send me your (useful) snippets!
++ So far all known bugs have been fixed, if you find one, let me know.
