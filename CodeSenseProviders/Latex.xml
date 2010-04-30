@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codesense>
 	<provider>
-		<selector>text.latex > *</selector>
+		<selector>text.latex, latex.section, latex.sub, latex.subsub</selector>
 		
 		<completions>net.texasexpat.latex.simple</completions>
 		<completions>net.texasexpat.latex.functions</completions>
@@ -10,5 +10,4 @@
 		<completions>net.texasexpat.latex.simple.intext</completions>
 		<complete-match>[\?\$\\a-zA-Z0-9-_\>\-]+</complete-match>
 	</provider>
-    
 </codesense>
