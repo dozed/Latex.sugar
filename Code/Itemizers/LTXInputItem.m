@@ -1,15 +1,15 @@
 //
-//  LTXSectionItem.m
+//  LTXInputItem.m
 //  Latex
 //
-//  Created by Stefan on 21.04.10.
+//  Created by Stefan on 22.04.10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "LTXSectionItem.h"
+#import "LTXInputItem.h"
 
 
-@implementation LTXSectionItem
+@implementation LTXInputItem
 
 - (void)initializeWithCapturedZones:(NSDictionary *)captures recipeInfo:(NSDictionary *)recipeInfo
 {
@@ -27,7 +27,7 @@
 	[super dealloc];
 }
 
-- (BOOL)transformIntoItem:(LTXSectionItem *)otherItem
+- (BOOL)transformIntoItem:(LTXInputItem *)otherItem
 {
 	// Note: the passed argument can actually be any item class, but casting it to this specific class makes it easy to write the transformation code. The default (super) implementation takes care of checking the class, so this is perfectly valid.
 	if (![super transformIntoItem:otherItem])
@@ -50,13 +50,12 @@
 
 - (CEItemDecorationType)decorationType
 {
-//	return CEItemDecorationDefault;
-	return CEItemDecorationDynamicTag;
+	return CEItemDecorationDefault;
 }
 
 - (NSColor *)backgroundColor
 {
-	return [NSColor blueColor];
+	return [NSColor yellowColor];
 }
 
 - (NSImage *)image
@@ -64,8 +63,7 @@
 	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"page_white_go" ofType:@"png"];
 	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
 	[image autorelease];
-//	return image;
-	return nil;
+	return image;
 }
 
 - (BOOL)isTextualizer
@@ -77,15 +75,5 @@
 {
 	return name;
 }
-
-//- (NSString *)secondaryDescription
-//{
-//	return name;
-//}
-
-//- (BOOL)shouldAppendSecondaryDescriptionToTitle
-//{
-//	return YES;
-//}
 
 @end

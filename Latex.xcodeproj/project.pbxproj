@@ -11,6 +11,8 @@
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		F8055A74117FB022003E133D /* page_white_go.png in Resources */ = {isa = PBXBuildFile; fileRef = F8055A73117FB022003E133D /* page_white_go.png */; };
 		F8055A86117FB05A003E133D /* LTXSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8055A85117FB05A003E133D /* LTXSectionItem.m */; };
+		F843F56111808B0500070EA8 /* LTXSubSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F843F56011808B0500070EA8 /* LTXSubSectionItem.m */; };
+		F843F5991180931800070EA8 /* LTXInputItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F843F5981180931800070EA8 /* LTXInputItem.m */; };
 		F8552AE0117E5BC9006DF6F5 /* Latex.sugar in Copy To Espresso */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* Latex.sugar */; };
 		F8552AFA117E5C4D006DF6F5 /* CodeSenseLibraries in Resources */ = {isa = PBXBuildFile; fileRef = F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */; };
 		F8552AFB117E5C4D006DF6F5 /* CodeSenseProviders in Resources */ = {isa = PBXBuildFile; fileRef = F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */; };
@@ -74,6 +76,10 @@
 		F8055A73117FB022003E133D /* page_white_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_white_go.png; sourceTree = "<group>"; };
 		F8055A84117FB05A003E133D /* LTXSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXSectionItem.h; sourceTree = "<group>"; };
 		F8055A85117FB05A003E133D /* LTXSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXSectionItem.m; sourceTree = "<group>"; };
+		F843F55F11808B0500070EA8 /* LTXSubSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXSubSectionItem.h; sourceTree = "<group>"; };
+		F843F56011808B0500070EA8 /* LTXSubSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXSubSectionItem.m; sourceTree = "<group>"; };
+		F843F5971180931800070EA8 /* LTXInputItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXInputItem.h; sourceTree = "<group>"; };
+		F843F5981180931800070EA8 /* LTXInputItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXInputItem.m; sourceTree = "<group>"; };
 		F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeSenseLibraries; sourceTree = "<group>"; };
 		F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeSenseProviders; sourceTree = "<group>"; };
 		F8552AEA117E5C4D006DF6F5 /* ContextualSettings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ContextualSettings; sourceTree = "<group>"; };
@@ -173,6 +179,7 @@
 		F8055A82117FB05A003E133D /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				F843F54D1180846900070EA8 /* FileActions */,
 				F8055A83117FB05A003E133D /* Itemizers */,
 			);
 			path = Code;
@@ -183,8 +190,19 @@
 			children = (
 				F8055A84117FB05A003E133D /* LTXSectionItem.h */,
 				F8055A85117FB05A003E133D /* LTXSectionItem.m */,
+				F843F55F11808B0500070EA8 /* LTXSubSectionItem.h */,
+				F843F56011808B0500070EA8 /* LTXSubSectionItem.m */,
+				F843F5971180931800070EA8 /* LTXInputItem.h */,
+				F843F5981180931800070EA8 /* LTXInputItem.m */,
 			);
 			path = Itemizers;
+			sourceTree = "<group>";
+		};
+		F843F54D1180846900070EA8 /* FileActions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FileActions;
 			sourceTree = "<group>";
 		};
 		F8552A3F117E592E006DF6F5 /* XML Based */ = {
@@ -268,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8055A86117FB05A003E133D /* LTXSectionItem.m in Sources */,
+				F843F56111808B0500070EA8 /* LTXSubSectionItem.m in Sources */,
+				F843F5991180931800070EA8 /* LTXInputItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_PATH = /Applications/Espresso.app;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(APPLICATION_PATH)/Contents/MacOS/Espresso";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -334,6 +354,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -341,7 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_PATH = /Applications/Espresso.app;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(APPLICATION_PATH)/Contents/MacOS/Espresso";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;

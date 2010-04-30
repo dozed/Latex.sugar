@@ -43,5 +43,10 @@ latex metadata.comment {
 	color:  #88bb44;
 }
 
+latex structural.context.details {
+	color:  #333333;
+	font-weight: bold;
+}
+
 latex metadata.comment.multiline {
 }

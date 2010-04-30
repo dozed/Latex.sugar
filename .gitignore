@@ -1,0 +1,6 @@
+build
+Headers
+LatexSugar.esproj
+*.pbxuser
+*.mode1v3
+.DS_Store
