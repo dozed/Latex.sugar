@@ -10,10 +10,41 @@
 				<starts-with>\\begin{comment}</starts-with>
 				<ends-with>\\end{comment}</ends-with>
 			</zone>
-			<zone name="latex.section">
-				<!--<expression>^(\\)(section|chapter)\*?({)(.+)(})</expression>-->
+			<zone name="latex.part">
 				<starts-with>
-				    <expression>^(\\)(section|chapter)\*?({)([^}]+)(})</expression>
+				    <expression>^(\\)(part)\*?({)([^}]+)(})</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter" />
+					<capture number="4" name="structural.header.part" />
+					<capture number="5" name="delimiter" />
+				</starts-with>
+				<ends-with>
+				    <expression>(?=^\\(?:part)\*?{[^}]+})</expression>
+				</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
+			<zone name="latex.chapter">
+				<starts-with>
+				    <expression>^(\\)(chapter)\*?({)([^}]+)(})</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter" />
+					<capture number="4" name="structural.header.chapter" />
+					<capture number="5" name="delimiter" />
+				</starts-with>
+				<ends-with>
+				    <expression>(?=^\\(?:chapter|part)\*?{[^}]+})</expression>
+				</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
+			<zone name="latex.section">
+				<starts-with>
+				    <expression>^(\\)(section)\*?({)([^}]+)(})</expression>
 					<capture number="1" name="delimiter" />
 					<capture number="2" name="identifier.function" />
 					<capture number="3" name="delimiter" />
@@ -21,39 +52,87 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-				    <expression>(?=^\\(?:section|chapter)\*?{[^}]+})</expression>
+				    <expression>(?=^\\(?:section|chapter|part)\*?{[^}]+})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
 				</subzones>
 			</zone>
-			<zone name="latex.sub">
+			<zone name="latex.subsection">
 				<starts-with>
-					<expression>^(\\)(subsection|part|subparagraph)\*?({)([^}]+)(})</expression>
+					<expression>^(\\)(subsection)\*?({)([^}]+)(})</expression>
 					<capture number="1" name="delimiter" />
 					<capture number="2" name="identifier.function" />
 					<capture number="3" name="delimiter" />
-					<capture number="4" name="structural.header.sub" />
+					<capture number="4" name="structural.header.subsection" />
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:section|chapter|subsection|part|subparagraph)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subsection|section|chapter|part)\*?{[^}]+})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
 				</subzones>
 			</zone>
-			<zone name="latex.subsub">
+			<zone name="latex.subsubsection">
 				<starts-with>
 					<expression>^(\\)(subsubsection)\*?({)([^}]+)(})</expression>
 					<capture number="1" name="delimiter" />
 					<capture number="2" name="identifier.function" />
 					<capture number="3" name="delimiter" />
-					<capture number="4" name="structural.header.subsub" />
+					<capture number="4" name="structural.header.subsubsection" />
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:section|chapter|subsection|part|subparagraph|subsubsection)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+				</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
+			<zone name="latex.paragraph">
+				<starts-with>
+					<expression>^(\\)(paragraph)\*?({)([^}]+)(})</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter" />
+					<capture number="4" name="structural.header.paragraph" />
+					<capture number="5" name="delimiter" />
+				</starts-with>
+				<ends-with>
+					<expression>(?=^\\(?:paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+				</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
+			<zone name="latex.subparagraph">
+				<starts-with>
+					<expression>^(\\)(subparagraph)\*?({)([^}]+)(})</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter" />
+					<capture number="4" name="structural.header.subparagraph" />
+					<capture number="5" name="delimiter" />
+				</starts-with>
+				<ends-with>
+					<expression>(?=^\\(?:subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+				</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
+			<zone name="latex.subsubparagraph">
+				<starts-with>
+					<expression>^(\\)(subsubparagraph)\*?({)([^}]+)(})</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter" />
+					<capture number="4" name="structural.header.subsubparagraph" />
+					<capture number="5" name="delimiter" />
+				</starts-with>
+				<ends-with>
+					<expression>(?=^\\(?:subsubparagraph|subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>

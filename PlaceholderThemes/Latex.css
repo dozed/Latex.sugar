@@ -6,8 +6,18 @@ latex structural.header {
 	color:  #669922;
 }
 
-latex structural.header.section {
+latex structural.header.part,
+latex structural.header.chapter,
+latex structural.header.section,
+latex structural.header.subsection,
+latex structural.header.subsubsection {
 	font-weight: bold;
+}
+
+latex structural.header.paragraph,
+latex structural.header.subparagraph,
+latex structural.header.subsubparagraph {
+
 }
 
 latex structural.context {

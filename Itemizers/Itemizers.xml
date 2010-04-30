@@ -1,5 +1,21 @@
 <?xml version="1.0"?>
 <itemizer>
+	<recipe name="structural.header.part">
+		<class>LTXSectionItem</class>
+		<start-selector>part > part:capture(name)</start-selector>
+		<end-selector>part > part:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.chapter">
+		<class>LTXSectionItem</class>
+		<start-selector>chapter > chapter:capture(name)</start-selector>
+		<end-selector>chapter > chapter:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
 	<recipe name="structural.header.section">
 		<class>LTXSectionItem</class>
 		<start-selector>section > section:capture(name)</start-selector>
@@ -8,18 +24,42 @@
 			<include-root-recipes/>
 		</subrecipes>
 	</recipe>
-	<recipe name="structural.header.sub">
+	<recipe name="structural.header.subsection">
 		<class>LTXSubSectionItem</class>
-		<start-selector>sub > sub:capture(name)</start-selector>
-		<end-selector>sub > sub:capture(name)</end-selector>
+		<start-selector>subsection > subsection:capture(name)</start-selector>
+		<end-selector>subsection > subsection:capture(name)</end-selector>
 		<subrecipes>
 			<include-root-recipes/>
 		</subrecipes>
 	</recipe>
-	<recipe name="structural.header.subsub">
+	<recipe name="structural.header.subsubsection">
 		<class>ESBaseItem</class>
-		<start-selector>subsub > subsub:capture(name)</start-selector>
-		<end-selector>subsub > subsub:capture(name)</end-selector>
+		<start-selector>subsubsection > subsubsection:capture(name)</start-selector>
+		<end-selector>subsubsection > subsubsection:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.paragraph">
+		<class>ESBaseItem</class>
+		<start-selector>paragraph > paragraph:capture(name)</start-selector>
+		<end-selector>paragraph > paragraph:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.subparagraph">
+		<class>ESBaseItem</class>
+		<start-selector>subparagraph > subparagraph:capture(name)</start-selector>
+		<end-selector>subparagraph > subparagraph:capture(name)</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+	</recipe>
+	<recipe name="structural.header.subsubparagraph">
+		<class>ESBaseItem</class>
+		<start-selector>subsubparagraph > subsubparagraph:capture(name)</start-selector>
+		<end-selector>subsubparagraph > subsubparagraph:capture(name)</end-selector>
 		<subrecipes>
 			<include-root-recipes/>
 		</subrecipes>
