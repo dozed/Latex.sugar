@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+    <set name="net.texasexpat.latex.simple">
+	    <completion string="\maketitle" />
+	    <completion string="\hline" />
+	    <completion string="\newline" />
+	    <completion string="\noindent" />
+	    <completion string="\medskip" />
+	    <completion string="\par" />
+	    <completion string="\large" />
+	    <completion string="\small" />
+	    <completion string="\noindent" />
+		<completion string="\appendix" />
+		<completion string="\frontmatter" />
+		<completion string="\mainmatter" />
+		<completion string="\backmatter" />
+		<completion string="\listoffigures" />
+		<completion string="\rightarrow" />
+		<completion string="\le" />
+		<completion string="\ge" />
+		<completion string="\neq" />
+		<completion string="\forall" />
+		<completion string="\in" />
+		<completion string="\notin" />
+		<completion string="\exists" />
+		<completion string="\nexists" />
+		<completion string="\choose" />
+	    <completion string="\infty" />
+	    <completion string="\mathcal" />
+		<completion string="\Leftrightarrow" />
+		<completion string="\leftrightarrow" />
+	    <completion string="\item " />
+	    <completion string="\begin{itemize}" />
+		<completion string="\end{itemize}" />
+	    <completion string="\begin{enumerate}" />
+		<completion string="\end{enumerate}" />
+		<completion string="\begin{eqnarray}" />
+		<completion string="\end{eqnarray}" />
+		<completion string="\begin{algorithmic}" />
+		<completion string="\end{algorithmic}" />
+		<completion string="\STATE " />
+		<completion string="\gets" />
+		<completion string="\ENDIF" />
+		<completion string="\ELSE" />
+		<completion string="\ENDWHILE" />
+		<completion string="\ENDFOR" />
+	</set>
+
+	<set name="net.texasexpat.latex.simple.intext">
+		<completion string="$" />
+		<completion string="$\rightarrow$" />
+		<completion string="$\ge$" />
+		<completion string="$\neq$" />
+		<completion string="$\in$" />
+	</set>
+
+    <set name="net.texasexpat.latex.functions">
+        <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${0:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
+	    <completion string="\begin" />
+	    <completion string="\end" />
+	    <completion string="\textbf" />
+	    <completion string="\emph" />
+	    <completion string="\textsc" />
+	    <completion string="\usepackage" />
+	    <completion string="\section" />
+	    <completion string="\subsection" />
+	    <completion string="\subsubsection" />
+	    <completion string="\chapter" />
+	    <completion string="\part" />
+	    <completion string="\title" />
+	    <completion string="\subtitle" />
+	    <completion string="\author" />
+	    <completion string="\ref" />
+	    <completion string="\label" />
+	    <completion string="\bibliographystyle" />
+	    <completion string="\paragraph" />
+	    <completion string="\cite" />
+	    <completion string="\usepackage" />
+		<completion string="\subparagraph" />
+		<completion string="\input" />
+		<completion string="\underline" />
+		<completion string="\overline" />
+		<completion string="\textit" />
+	    <completion string="\mathbb" />
+	    <completion string="\textnormal" />
+	    <completion string="\text" />
+	    <completion string="\log" />
+	    <completion string="\Delta" />
+		<completion string="\IF" />
+		<completion string="\WHILE" />
+		<completion string="\FOR" />
+		<completion string="\FORALL" />
+    </set>
+
+	<set name="net.texasexpat.latex.functions.binary">
+	    <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${1:arg}}{${2:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
+	    <completion string="\sum_" />
+	    <completion string="\frac" />
+	</set>
+	
+	<set name="net.texasexpat.latex.functions.binaryalt">
+	    <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${1:arg}}_{${2:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
+	    <completion string="\underbrace" />
+	</set>
+</codesense>

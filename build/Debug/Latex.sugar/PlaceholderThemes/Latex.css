@@ -1,0 +1,47 @@
+/*
+	@placeholder latex
+*/
+
+latex structural.header {
+	color:  #669922;
+}
+
+latex structural.header.section {
+	font-weight: bold;
+}
+
+latex structural.context {
+	color:  #dd7777;
+	spell-check: disabled;
+}
+
+latex identifier.function {
+	color:  #9999ff;
+	spell-check: disabled;
+}
+
+latex delimiter {
+	color:  #aaaaaa;
+}
+
+latex metadata.processing {
+	color:  #aaaaaa;
+	spell-check: disabled;
+}
+
+latex structural.context.emphasis {
+	font-weight:  bold;
+	color:  #000000;
+	spell-check: enabled;
+}
+
+latex structural.separator {
+	color:  #666;
+}
+
+latex metadata.comment {
+	color:  #88bb44;
+}
+
+latex metadata.comment.multiline {
+}

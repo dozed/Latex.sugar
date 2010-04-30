@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-recipes>
+	<snippet id="net.texasexpat.latex.snippets.usepackage" category="tools.Snippets">
+		<title>usepackage</title>
+		<text><![CDATA[\\usepackage{${0:package}}]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>use</text-trigger>
+	</snippet>
+	
+	<snippet id="net.texasexpat.latex.snippets.template" category="tools.Snippets">
+		<title>Blank template</title>
+		<text><![CDATA[\\documentclass[10pt]{article}
+
+\\usepackage{graphicx}
+\\usepackage{times}
+\\usepackage{fullpage}
+
+\\title{Title}
+\\author{Author}
+
+\\begin{document}
+
+\\maketitle
+
+
+\\end{document}]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+	</snippet>
+	
+	<snippet id="net.texasexpat.latex.snippets.table" category="tools.Snippets">
+		<title>Empty Table</title>
+		<text><![CDATA[\\begin{table}
+\\begin{centering}
+\\begin{tabular}{r | c c}
+\\end{tabular}
+
+\\caption{\\label{${0:tbl_label}}${1:This table has no caption.}}
+\\end{centering}
+\\end{table}]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>table</text-trigger>
+	</snippet>
+	
+	<snippet id="net.texasexpat.latex.snippets.figure" category="tools.Snippets">
+		<title>Empty Figure</title>
+		<text><![CDATA[\\begin{figure}
+\\begin{centering}
+\\includegraphics{${0:path_to_figure}}
+\\caption{\\label{${1:fig_label}}${2:This figure has no caption.}}
+\\end{centering}
+\\end{figure}]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>figure</text-trigger>
+	</snippet>
+	
+	<snippet id="net.texasexpat.latex.snippets.bibliography" category="tools.Snippets">
+		<title>Bibliography</title>
+		<text><![CDATA[\\begin{small}
+\\bibliography{${0:biblio.bib}}
+\\end{small}]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>bib</text-trigger>
+	</snippet>
+</action-recipes>
