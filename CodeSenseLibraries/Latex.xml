@@ -15,7 +15,6 @@
 		<completion string="\mainmatter" />
 		<completion string="\backmatter" />
 		<completion string="\listoffigures" />
-		<completion string="\rightarrow" />
 		<completion string="\le" />
 		<completion string="\ge" />
 		<completion string="\neq" />
@@ -27,8 +26,15 @@
 		<completion string="\choose" />
 	    <completion string="\infty" />
 	    <completion string="\mathcal" />
-		<completion string="\Leftrightarrow" />
+		<completion string="\backslash" />
+		<completion string="\leftarrow" />
+		<completion string="\Leftarrow" />
+		<completion string="\rightarrow" />
+		<completion string="\Rightarrow" />
 		<completion string="\leftrightarrow" />
+		<completion string="\Leftrightarrow" />
+		<completion string="\xleftarrow" />
+		<completion string="\xrightarrow" />
 	    <completion string="\item " />
 	    <completion string="\begin{itemize}" />
 		<completion string="\end{itemize}" />
@@ -65,6 +71,7 @@
 	    <completion string="\end" />
 	    <completion string="\textbf" />
 	    <completion string="\emph" />
+	    <completion string="\bar" />
 	    <completion string="\textsc" />
 	    <completion string="\usepackage" />
 	    <completion string="\part" />
