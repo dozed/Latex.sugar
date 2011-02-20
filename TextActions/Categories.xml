@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<action-categories>
+	<!-- Generic categories -->
+	<category id="actions.text.Latex" show="inline separated">
+		<title>Latex</title>
+	</category>
+    
+    <category id="latex.tools.Utilities" show="inline separated"></category>
+    <category id="latex.tools.Snippets" show="inline separated"></category>
+    <category id="latex.tools.Snippets.control" show="inline separated"></category>
+    <category id="latex.tools.Snippets.container" show="inline separated"></category>
+    <category id="latex.tools.Snippets.misc" show="inline separated"></category>
+    <category id="latex.tools.Snippets.documentation" show="inline separated"></category>
+</action-categories>

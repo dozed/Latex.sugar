@@ -30,6 +30,9 @@
 		F8552B07117E5C53006DF6F5 /* PlaceholderThemes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */; };
 		F8552B08117E5C53006DF6F5 /* Syntaxes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF4117E5C4D006DF6F5 /* Syntaxes */; };
 		F8552B09117E5C53006DF6F5 /* TextActions in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF7117E5C4D006DF6F5 /* TextActions */; };
+		F8CF263A13115E1100E568E0 /* FileActions in Resources */ = {isa = PBXBuildFile; fileRef = F8CF263613115E1100E568E0 /* FileActions */; };
+		F8CF269A1311640300E568E0 /* TextTools in Resources */ = {isa = PBXBuildFile; fileRef = F8CF26971311640300E568E0 /* TextTools */; };
+		F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +91,10 @@
 		F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlaceholderThemes; sourceTree = "<group>"; };
 		F8552AF4117E5C4D006DF6F5 /* Syntaxes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Syntaxes; sourceTree = "<group>"; };
 		F8552AF7117E5C4D006DF6F5 /* TextActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextActions; sourceTree = "<group>"; };
+		F8CF263613115E1100E568E0 /* FileActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FileActions; sourceTree = "<group>"; };
+		F8CF26971311640300E568E0 /* TextTools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextTools; sourceTree = "<group>"; };
+		F8CF26BD1311672200E568E0 /* LTXRunLatexAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXRunLatexAction.h; sourceTree = "<group>"; };
+		F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXRunLatexAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F8055A82117FB05A003E133D /* Code */,
+				F843F54D1180846900070EA8 /* FileActions */,
 				F8055A72117FB022003E133D /* Icons */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -179,7 +187,7 @@
 		F8055A82117FB05A003E133D /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				F843F54D1180846900070EA8 /* FileActions */,
+				F8CF26BC1311672200E568E0 /* File Actions */,
 				F8055A83117FB05A003E133D /* Itemizers */,
 			);
 			path = Code;
@@ -203,6 +211,7 @@
 			children = (
 			);
 			name = FileActions;
+			path = Code;
 			sourceTree = "<group>";
 		};
 		F8552A3F117E592E006DF6F5 /* XML Based */ = {
@@ -211,13 +220,24 @@
 				F8552AE4117E5C4D006DF6F5 /* CodeSenseLibraries */,
 				F8552AE7117E5C4D006DF6F5 /* CodeSenseProviders */,
 				F8552AEA117E5C4D006DF6F5 /* ContextualSettings */,
+				F8CF263613115E1100E568E0 /* FileActions */,
 				F8552AED117E5C4D006DF6F5 /* Itemizers */,
 				F8552AF0117E5C4D006DF6F5 /* Languages.xml */,
 				F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */,
 				F8552AF4117E5C4D006DF6F5 /* Syntaxes */,
 				F8552AF7117E5C4D006DF6F5 /* TextActions */,
+				F8CF26971311640300E568E0 /* TextTools */,
 			);
 			name = "XML Based";
+			sourceTree = "<group>";
+		};
+		F8CF26BC1311672200E568E0 /* File Actions */ = {
+			isa = PBXGroup;
+			children = (
+				F8CF26BD1311672200E568E0 /* LTXRunLatexAction.h */,
+				F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */,
+			);
+			path = "File Actions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +295,8 @@
 				F8552B00117E5C4D006DF6F5 /* Syntaxes in Resources */,
 				F8552B01117E5C4D006DF6F5 /* TextActions in Resources */,
 				F8055A74117FB022003E133D /* page_white_go.png in Resources */,
+				F8CF263A13115E1100E568E0 /* FileActions in Resources */,
+				F8CF269A1311640300E568E0 /* TextTools in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +310,7 @@
 				F8055A86117FB05A003E133D /* LTXSectionItem.m in Sources */,
 				F843F56111808B0500070EA8 /* LTXSubSectionItem.m in Sources */,
 				F843F5991180931800070EA8 /* LTXInputItem.m in Sources */,
+				F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+<tool-recipes>
+	<tool type="toolbar" id="com.macrabbit.TextTools.Preview" category="actions.text.Latex">
+		<class>LTXRunLatexAction</class>
+		<setup>
+			<label>Preview</label>
+			<palette-label>Preview</palette-label>
+			<image>Preview</image>
+		</setup>
+	</tool>
+</tool-recipes>
+-->

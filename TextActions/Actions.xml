@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<action-recipes>
+  <action id="latex.action.LTXRunLatexAction" category="actions.text.Latex/latex.tools.Utilities">
+    <class>LTXRunLatexAction</class>
+    <title>Run Pdflatex...</title>
+    <key-equivalent>cmd shift R</key-equivalent>
+    <setup>
+      <pdflatex-path>/usr/texbin/pdflatex</pdflatex-path>
+    </setup>
+  </action>
+</action-recipes>

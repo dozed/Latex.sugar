@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
-	<snippet id="net.texasexpat.latex.snippets.usepackage" category="tools.Snippets">
+	<snippet id="net.texasexpat.latex.snippets.usepackage" category="latex.tools.Snippets">
 		<title>usepackage</title>
 		<text><![CDATA[\\usepackage{${0:package}}]]></text>
 		<syntax-context>latex, tex, LaTeX</syntax-context>
 		<text-trigger>use</text-trigger>
 	</snippet>
 	
-	<snippet id="net.texasexpat.latex.snippets.template" category="tools.Snippets">
+	<snippet id="net.texasexpat.latex.snippets.template" category="latex.tools.Snippets">
 		<title>Blank template</title>
 		<text><![CDATA[\\documentclass[10pt]{article}
 
@@ -31,7 +31,7 @@
 		<syntax-context>latex, tex, LaTeX</syntax-context>
 	</snippet>
 	
-	<snippet id="net.texasexpat.latex.snippets.table" category="tools.Snippets">
+	<snippet id="net.texasexpat.latex.snippets.table" category="latex.tools.Snippets">
 		<title>Empty Table</title>
 		<text><![CDATA[\\begin{table}
 \\begin{centering}
@@ -45,7 +45,7 @@
 		<text-trigger>table</text-trigger>
 	</snippet>
 	
-	<snippet id="net.texasexpat.latex.snippets.figure" category="tools.Snippets">
+	<snippet id="net.texasexpat.latex.snippets.figure" category="latex.tools.Snippets">
 		<title>Empty Figure</title>
 		<text><![CDATA[\\begin{figure}
 \\begin{centering}
@@ -57,7 +57,7 @@
 		<text-trigger>figure</text-trigger>
 	</snippet>
 	
-	<snippet id="net.texasexpat.latex.snippets.bibliography" category="tools.Snippets">
+	<snippet id="net.texasexpat.latex.snippets.bibliography" category="latex.tools.Snippets">
 		<title>Bibliography</title>
 		<text><![CDATA[\\begin{small}
 \\bibliography{${0:biblio.bib}}
