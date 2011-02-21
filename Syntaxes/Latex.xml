@@ -10,6 +10,13 @@
 				<starts-with>\\begin{comment}</starts-with>
 				<ends-with>\\end{comment}</ends-with>
 			</zone>
+			<zone name="latex.mathmode">
+				<starts-with>(?:\$\$|\$)</starts-with>
+				<ends-with>(?:\$\$|\$)</ends-with>
+				<subzones>
+				    <include collection="text.latex"/>
+				</subzones>
+			</zone>
 			<zone name="latex.part">
 				<starts-with>
 				    <expression>^(\\)(part)\*?({)([^}]+)(})</expression>

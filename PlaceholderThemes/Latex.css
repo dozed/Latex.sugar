@@ -60,3 +60,17 @@ latex structural.context.details {
 
 latex metadata.comment.multiline {
 }
+
+
+latex mathmode {
+	color: #eeeeff;
+}
+
+latex mathmode delimiter {
+	color: #eeeeff;
+}
+
+latex mathmode identifier.function {
+	color:  #eeeeff;
+	spell-check: disabled;
+}
