@@ -16,7 +16,6 @@
 		<completion string="\backmatter" />
 		<completion string="\listoffigures" />
 		<completion string="\choose" />
-		<completion string="\backslash" />
 	    <completion string="\item " />
 	    <completion string="\begin{itemize}" />
 		<completion string="\end{itemize}" />
@@ -52,6 +51,7 @@
 	    <completion string="\begin" />
 	    <completion string="\end" />
 	    <completion string="\textbf" />
+		<completion string="\textit" />
 	    <completion string="\emph" />
 	    <completion string="\bar" />
 	    <completion string="\textsc" />
@@ -73,6 +73,19 @@
 	    <completion string="\cite" />
 	    <completion string="\usepackage" />
 		<completion string="\input" />
+		<completion string="\IF" />
+		<completion string="\WHILE" />
+		<completion string="\FOR" />
+		<completion string="\FORALL" />
+    </set>
+
+    <set name="net.texasexpat.latex.functions.math">
+        <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${0:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
 		<completion string="\underline" />
 		<completion string="\overline" />
 		<completion string="\textit" />
@@ -81,13 +94,9 @@
 	    <completion string="\text" />
 	    <completion string="\log" />
 	    <completion string="\Delta" />
-		<completion string="\IF" />
-		<completion string="\WHILE" />
-		<completion string="\FOR" />
-		<completion string="\FORALL" />
     </set>
 
-	<set name="net.texasexpat.latex.functions.binary">
+	<set name="net.texasexpat.latex.functions.math.binary">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -98,7 +107,7 @@
 	    <completion string="\frac" />
 	</set>
 	
-	<set name="net.texasexpat.latex.functions.binaryalt">
+	<set name="net.texasexpat.latex.functions.math.binaryalt">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -117,6 +126,7 @@
 		<completion string="\notin" />
 		<completion string="\exists" />
 		<completion string="\nexists" />
+		<completion string="\cdot" />
 	    <completion string="\infty" />
 	    <completion string="\mathcal" />
 		<completion string="\leftarrow" />
@@ -131,5 +141,6 @@
 		<completion string="\lim" />
 		<completion string="\varepsilon" />
 		<completion string="\delta" />
+		<completion string="\backslash" />
 	</set>
 </codesense>

@@ -5,15 +5,17 @@
 		
 		<completions>net.texasexpat.latex.simple</completions>
 		<completions>net.texasexpat.latex.functions</completions>
-		<completions>net.texasexpat.latex.functions.binary</completions>
-		<completions>net.texasexpat.latex.functions.binaryalt</completions>
-		<complete-match>[\?\$\\a-zA-Z0-9-_\>\-]+</complete-match>
+		<complete-match capture="1">(\\[a-zA-Z0-9]*)</complete-match>
 	</provider>
 
 	<provider>
 		<selector>latex.mathmode</selector>
 		
+		<completions>net.texasexpat.latex.functions.math</completions>
 		<completions>net.texasexpat.latex.functions.math.simple</completions>
-		<complete-match>[\?\$\\a-zA-Z0-9-_\>\-]+</complete-match>
+		<completions>net.texasexpat.latex.functions.math.binary</completions>
+		<completions>net.texasexpat.latex.functions.math.binaryalt</completions>
+		
+		<complete-match capture="1">(\\[a-zA-Z0-9]*)</complete-match>
 	</provider>
 </codesense>
