@@ -65,4 +65,24 @@
 		<syntax-context>latex, tex, LaTeX</syntax-context>
 		<text-trigger>bib</text-trigger>
 	</snippet>
+	
+	<snippet id="net.texasexpat.latex.snippets.enumerate" category="latex.tools.Snippets">
+		<title>Enumeration</title>
+		<text><![CDATA[\\begin{enumerate}
+\\item $0
+\\end{enumerate}
+]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>enum</text-trigger>
+	</snippet>
+
+	<snippet id="net.texasexpat.latex.snippets.itemize" category="latex.tools.Snippets">
+		<title>Item list</title>
+		<text><![CDATA[\\begin{itemize}
+\\item $0
+\\end{itemize}
+]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>item</text-trigger>
+	</snippet>
 </action-recipes>
