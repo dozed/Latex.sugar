@@ -32,15 +32,7 @@
 		<completion string="\ENDWHILE" />
 		<completion string="\ENDFOR" />
 	</set>
-<!--
-	<set name="net.texasexpat.latex.simple.intext">
-		<completion string="$" />
-		<completion string="$\rightarrow$" />
-		<completion string="$\ge$" />
-		<completion string="$\neq$" />
-		<completion string="$\in$" />
-	</set>
--->
+
     <set name="net.texasexpat.latex.functions">
         <behavior>
 			<append-dynamic>
