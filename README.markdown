@@ -17,8 +17,8 @@ There are textual shortcuts for several of the snippets:
 +  **Figures** Type `figure[TAB]` to open up a basic figure environment; you can type the caption, press tab, type the reference label, press tab, and finally type the path to the figure. Woohoo, again!
 +  **Packages** Type `use[TAB]` followed by the name of a package to insert a `\usepackage{foo}` line at the cursor.
 +  **Bibliography** Type `bib[TAB]` followed by the filename of your `.bib` file to insert a bibliography.
-
-Itemizer support is working now.
++  **Enumeration** Type `enum[TAB]` to create an enumeration with one item.
++  **Item List** Type `item[TAB]` to create an item list with one item.
 
 ## Installation
 
