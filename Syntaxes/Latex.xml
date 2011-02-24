@@ -27,7 +27,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-				    <expression>(?=^\\(?:part)\*?{[^}]+})</expression>
+				    <expression>(?=^\\(?:part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -43,7 +43,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-				    <expression>(?=^\\(?:chapter|part)\*?{[^}]+})</expression>
+				    <expression>(?=^\\(?:chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -59,7 +59,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-				    <expression>(?=^\\(?:section|chapter|part)\*?{[^}]+})</expression>
+				    <expression>(?=^\\(?:section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -75,7 +75,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:subsection|section|chapter|part)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subsection|section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -91,7 +91,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subsubsection|subsection|section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -107,7 +107,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -123,7 +123,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -139,7 +139,7 @@
 					<capture number="5" name="delimiter" />
 				</starts-with>
 				<ends-with>
-					<expression>(?=^\\(?:subsubparagraph|subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+})</expression>
+					<expression>(?=^\\(?:subsubparagraph|subparagraph|paragraph|subsubsection|subsection|section|chapter|part)\*?{[^}]+}|^\\end{document})</expression>
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -162,6 +162,7 @@
 				<capture number="4" name="structural.header.input" />
 				<capture number="5" name="delimiter" />
 			</zone>
+			<!--
 			<zone name="latex.paragraph">
 				<expression>^(\\)(paragraph)\*?({)([^}]+)(})</expression>
 				<capture number="1" name="delimiter" />
@@ -170,6 +171,7 @@
 				<capture number="4" name="structural.header.paragraph" />
 				<capture number="5" name="delimiter" />
 			</zone>
+			-->
 			<zone name="latex.appendix">
 				<expression>^(\\)(appendix)</expression>
 				<capture number="1" name="delimiter" />

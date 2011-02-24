@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codesense>
 	<provider>
-		<selector>text.latex, latex.part, latex.section, latex.subsection, latex.subsubsection, latex.paragraph, latex.subparagraph, latex.subsubparagraph</selector>
+		<selector>text.latex, latex.part, latex.chapter, latex.section, latex.subsection, latex.subsubsection, latex.paragraph, latex.subparagraph, latex.subsubparagraph</selector>
 		
 		<completions>net.texasexpat.latex.simple</completions>
 		<completions>net.texasexpat.latex.functions</completions>
