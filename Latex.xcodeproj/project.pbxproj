@@ -33,6 +33,7 @@
 		F8CF263A13115E1100E568E0 /* FileActions in Resources */ = {isa = PBXBuildFile; fileRef = F8CF263613115E1100E568E0 /* FileActions */; };
 		F8CF269A1311640300E568E0 /* TextTools in Resources */ = {isa = PBXBuildFile; fileRef = F8CF26971311640300E568E0 /* TextTools */; };
 		F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */; };
+		F8DE30C5131671D500DEB9B1 /* LTXPreviewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE30C4131671D500DEB9B1 /* LTXPreviewAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,8 @@
 		F8CF26971311640300E568E0 /* TextTools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextTools; sourceTree = "<group>"; };
 		F8CF26BD1311672200E568E0 /* LTXRunLatexAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXRunLatexAction.h; sourceTree = "<group>"; };
 		F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXRunLatexAction.m; sourceTree = "<group>"; };
+		F8DE30C3131671D500DEB9B1 /* LTXPreviewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXPreviewAction.h; sourceTree = "<group>"; };
+		F8DE30C4131671D500DEB9B1 /* LTXPreviewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXPreviewAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +239,8 @@
 			children = (
 				F8CF26BD1311672200E568E0 /* LTXRunLatexAction.h */,
 				F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */,
+				F8DE30C3131671D500DEB9B1 /* LTXPreviewAction.h */,
+				F8DE30C4131671D500DEB9B1 /* LTXPreviewAction.m */,
 			);
 			path = "File Actions";
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				F843F56111808B0500070EA8 /* LTXSubSectionItem.m in Sources */,
 				F843F5991180931800070EA8 /* LTXInputItem.m in Sources */,
 				F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */,
+				F8DE30C5131671D500DEB9B1 /* LTXPreviewAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
