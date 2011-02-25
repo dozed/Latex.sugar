@@ -178,7 +178,7 @@
 			</zone>
 			<zone name="latex.function.prearg">
 				<starts-with>
-					<expression>(\\)([a-zA-Z]+)(\[)</expression>
+					<expression>(\\)((?!left|item\[)[a-zA-Z]+)(\[)</expression>
 					<capture number="1" name="delimiter" />
 					<capture number="2" name="identifier.function" />
 					<capture number="3" name="delimiter.metadata" />
@@ -197,7 +197,7 @@
 				</subzones>
 			</zone>
 			<zone name="metadata.comment">
-				<expression>\%.*</expression>
+				<expression>%.*</expression>
 			</zone>
 			<zone name="latex.function.noargs">
 				<expression>(\\)([a-zA-Z]+)</expression>

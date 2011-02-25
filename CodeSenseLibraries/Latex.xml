@@ -71,7 +71,7 @@
 		<completion string="\FORALL" />
     </set>
 
-    <set name="net.texasexpat.latex.functions.math">
+    <set name="net.texasexpat.latex.mathmode.functions">
         <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -91,7 +91,7 @@
 	    <completion string="\sup" />
     </set>
 
-	<set name="net.texasexpat.latex.functions.math.binary">
+	<set name="net.texasexpat.latex.mathmode.functions.binary">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -102,7 +102,7 @@
 	    <completion string="\frac" />
 	</set>
 	
-	<set name="net.texasexpat.latex.functions.math.binaryalt">
+	<set name="net.texasexpat.latex.mathmode.functions.binaryalt">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -112,7 +112,7 @@
 	    <completion string="\underbrace" />
 	</set>
 	
-	<set name="net.texasexpat.latex.functions.math.simple">
+	<set name="net.texasexpat.latex.mathmode.simple">
 		<completion string="\le" />
 		<completion string="\ge" />
 		<completion string="\neq" />
