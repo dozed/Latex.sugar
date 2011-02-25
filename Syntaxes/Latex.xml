@@ -162,16 +162,6 @@
 				<capture number="4" name="structural.header.input" />
 				<capture number="5" name="delimiter" />
 			</zone>
-			<!--
-			<zone name="latex.paragraph">
-				<expression>^(\\)(paragraph)\*?({)([^}]+)(})</expression>
-				<capture number="1" name="delimiter" />
-				<capture number="2" name="identifier.function" />
-				<capture number="3" name="delimiter" />
-				<capture number="4" name="structural.header.paragraph" />
-				<capture number="5" name="delimiter" />
-			</zone>
-			-->
 			<zone name="latex.appendix">
 				<expression>^(\\)(appendix)</expression>
 				<capture number="1" name="delimiter" />
@@ -187,13 +177,24 @@
 				<capture number="6" name="metadata.processing" />
 			</zone>
 			<zone name="latex.function.prearg">
-				<expression>(\\)([a-zA-Z]+)(\[[^\]]+\])({)([^}]+)(})</expression>
-				<capture number="1" name="delimiter" />
-				<capture number="2" name="identifier.function" />
-				<capture number="3" name="metadata.processing" />
-				<capture number="4" name="delimiter" />
-				<capture number="5" name="structural.context" />
-				<capture number="6" name="delimiter" />
+				<starts-with>
+					<expression>(\\)([a-zA-Z]+)(\[)</expression>
+					<capture number="1" name="delimiter" />
+					<capture number="2" name="identifier.function" />
+					<capture number="3" name="delimiter.metadata" />
+				</starts-with>
+				<ends-with>
+					<expression>(\])({)([^}]*)(})</expression>
+					<capture number="1" name="delimiter.metadata" />
+					<capture number="2" name="delimiter" />
+					<capture number="3" name="structural.context" />
+					<capture number="4" name="delimiter" />
+				</ends-with>
+				<subzones>
+					<zone name="metadata.processing">
+						<expression>([^\]]+)</expression>
+					</zone>
+				</subzones>
 			</zone>
 			<zone name="metadata.comment">
 				<expression>\%.*</expression>

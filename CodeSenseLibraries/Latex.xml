@@ -86,6 +86,9 @@
 	    <completion string="\text" />
 	    <completion string="\log" />
 	    <completion string="\Delta" />
+	    <completion string="\min" />
+	    <completion string="\max" />
+	    <completion string="\sup" />
     </set>
 
 	<set name="net.texasexpat.latex.functions.math.binary">
@@ -130,9 +133,23 @@
 		<completion string="\xleftarrow" />
 		<completion string="\xrightarrow" />
 		<completion string="\subset" />
+		<completion string="\supset" />
 		<completion string="\lim" />
 		<completion string="\varepsilon" />
 		<completion string="\delta" />
 		<completion string="\backslash" />
+		<completion string="\alpha" />
+		<completion string="\lbrace" />
+		<completion string="\rbrace" />
+		<completion string="\vert" />
+		<completion string="\cap" />
+		<completion string="\cup" />
+		<completion string="\neg" />
+		<completion string="\wedge" />
+		<completion string="\vee" />
+		<completion string="\equiv" />
+		<completion string="\approx" />
+		<completion string="\partial" />
+		<completion string="\emptyset" />
 	</set>
 </codesense>
