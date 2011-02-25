@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <settings>
+	<setting name="comment-multiline-start">
+		<syntax-context>latex, latex *</syntax-context>
+		<no-value/>
+	</setting>
+  
+	<setting name="comment-multiline-end">
+		<syntax-context>latex, latex *</syntax-context>
+		<no-value/>
+	</setting>
+  
+	<setting name="comment-multiline-end-inert">
+		<syntax-context>latex, latex *</syntax-context>
+		<no-value/>
+	</setting>
 
     <setting name="comment-singleline-start">
         <syntax-context>latex, latex *</syntax-context>
-        <value>\%</value>
+        <value>%</value>
     </setting>
-
 </settings>

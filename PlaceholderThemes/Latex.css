@@ -63,14 +63,15 @@ latex metadata.comment.multiline {
 
 
 latex mathmode {
-	color: #eeeeff;
+	color: #7a3e9d;
 }
 
 latex mathmode delimiter {
-	color: #eeeeff;
+	color: #7a3e9d;
 }
 
 latex mathmode identifier.function {
-	color:  #eeeeff;
+	color: #7a3e9d;
 	spell-check: disabled;
 }
+
