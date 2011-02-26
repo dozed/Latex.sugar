@@ -85,4 +85,11 @@
 		<syntax-context>latex, tex, LaTeX</syntax-context>
 		<text-trigger>item</text-trigger>
 	</snippet>
+
+	<snippet id="net.texasexpat.latex.snippets.roof" category="latex.tools.Snippets">
+		<title>Insert roof (^)</title>
+		<text><![CDATA[^]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>roof</text-trigger>
+	</snippet>
 </action-recipes>
