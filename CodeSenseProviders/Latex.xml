@@ -5,6 +5,9 @@
 		
 		<completions>net.texasexpat.latex.simple</completions>
 		<completions>net.texasexpat.latex.functions</completions>
+		<completions>net.texasexpat.latex.zone.equation</completions>
+		<completions>net.texasexpat.latex.zone.equationarray</completions>
+		
 		<complete-match capture="1">(\\[a-zA-Z0-9]*)</complete-match>
 	</provider>
 

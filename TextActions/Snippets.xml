@@ -86,6 +86,16 @@
 		<text-trigger>item</text-trigger>
 	</snippet>
 
+	<snippet id="net.texasexpat.latex.snippets.equation" category="latex.tools.Snippets">
+		<title>Equation</title>
+		<text><![CDATA[\\begin{equation}
+
+\\end{equation}
+]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>item</text-trigger>
+	</snippet>
+
 	<snippet id="net.texasexpat.latex.snippets.roof" category="latex.tools.Snippets">
 		<title>Insert roof (^)</title>
 		<text><![CDATA[^]]></text>
