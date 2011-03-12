@@ -66,11 +66,11 @@ latex mathmode {
 	color: #7a3e9d;
 }
 
-latex mathmode delimiter {
+latex mathmode latex delimiter {
 	color: #7a3e9d;
 }
 
-latex mathmode identifier.function {
+latex mathmode latex identifier.function {
 	color: #7a3e9d;
 	spell-check: disabled;
 }

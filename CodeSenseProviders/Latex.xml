@@ -9,7 +9,7 @@
 	</provider>
 
 	<provider>
-		<selector>latex.mathmode</selector>
+		<selector>latex.mathmode.short, latex.mathmode.function</selector>
 		
 		<completions>net.texasexpat.latex.mathmode.simple</completions>
 		<completions>net.texasexpat.latex.mathmode.functions</completions>
