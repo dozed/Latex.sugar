@@ -89,11 +89,21 @@
 	<snippet id="net.texasexpat.latex.snippets.equation" category="latex.tools.Snippets">
 		<title>Equation</title>
 		<text><![CDATA[\\begin{equation}
-
+$0
 \\end{equation}
 ]]></text>
 		<syntax-context>latex, tex, LaTeX</syntax-context>
-		<text-trigger>item</text-trigger>
+		<text-trigger>eq</text-trigger>
+	</snippet>
+
+	<snippet id="net.texasexpat.latex.snippets.equationarray" category="latex.tools.Snippets">
+		<title>Equation array</title>
+		<text><![CDATA[\\begin{eqnarray}
+$0
+\\end{eqnarray}
+]]></text>
+		<syntax-context>latex, tex, LaTeX</syntax-context>
+		<text-trigger>eqa</text-trigger>
 	</snippet>
 
 	<snippet id="net.texasexpat.latex.snippets.roof" category="latex.tools.Snippets">
