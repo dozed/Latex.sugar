@@ -122,6 +122,7 @@
 		<completion string="\exists" />
 		<completion string="\nexists" />
 		<completion string="\cdot" />
+		<completion string="\circ" />
 	    <completion string="\infty" />
 	    <completion string="\mathcal" />
 		<completion string="\leftarrow" />
@@ -135,10 +136,11 @@
 		<completion string="\subset" />
 		<completion string="\supset" />
 		<completion string="\lim" />
-		<completion string="\varepsilon" />
-		<completion string="\delta" />
-		<completion string="\backslash" />
 		<completion string="\alpha" />
+		<completion string="\beta" />
+		<completion string="\delta" />
+		<completion string="\varepsilon" />
+		<completion string="\backslash" />
 		<completion string="\lbrace" />
 		<completion string="\rbrace" />
 		<completion string="\vert" />
