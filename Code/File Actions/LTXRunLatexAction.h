@@ -5,7 +5,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface LTXRunLatexAction : NSObject {
-	NSString *pdflatexPath;
+
 }
 
 - (id)initWithDictionary:(NSDictionary *)dictionary bundlePath:(NSString *)bundlePath;

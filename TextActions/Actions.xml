@@ -4,9 +4,6 @@
     <class>LTXRunLatexAction</class>
     <title>Run Pdflatex...</title>
     <key-equivalent>cmd shift R</key-equivalent>
-    <setup>
-      <pdflatex-path>/usr/texbin/pdflatex</pdflatex-path>
-    </setup>
   </action>
   <action id="latex.action.LTXPreviewAction" category="actions.text.Latex/latex.tools.Utilities">
     <class>LTXPreviewAction</class>

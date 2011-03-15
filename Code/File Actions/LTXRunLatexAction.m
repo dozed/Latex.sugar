@@ -12,9 +12,7 @@
 	self = [super init];
 	if (self == nil)
 		return nil;
-	
-	pdflatexPath = [[dictionary objectForKey:@"pdflatex-path"] copy]; //a.g.
-	
+
 	return self;
 }
 
@@ -22,7 +20,6 @@
 
 - (void)dealloc
 {	
-	[pdflatexPath release];
 	[super dealloc];
 }
 
@@ -30,7 +27,11 @@
 
 - (BOOL)canPerformActionWithContext:(id)context
 {
-	return ([[NSFileManager defaultManager] fileExistsAtPath:pdflatexPath] && 
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *pdfLatexPath = [defaults stringForKey:@"LTXPdflatexPath"];
+	if (pdfLatexPath == nil) return false;
+	
+	return ([[NSFileManager defaultManager] fileExistsAtPath:pdfLatexPath] && 
 			[[NSFileManager defaultManager] fileExistsAtPath:[[[context documentContext] fileURL] path]]);
 }
 
@@ -45,9 +46,12 @@
 	NSString* absolutePath = [[[context documentContext] fileURL] path];
 	NSRange range = [absolutePath rangeOfString:@"/" options:NSBackwardsSearch];
 	NSString* basePath = [absolutePath substringToIndex:range.location];
+
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *pdfLatexPath = [defaults stringForKey:@"LTXPdflatexPath"];
 	
 	[task setCurrentDirectoryPath:basePath];
-    [task setLaunchPath:pdflatexPath];
+    [task setLaunchPath:pdfLatexPath];
     [task setArguments:[NSArray arrayWithObjects: @"-l", [[[context documentContext] fileURL] path], nil]];
     [task setStandardOutput:pipe];
 	[task setStandardError:pipe];
