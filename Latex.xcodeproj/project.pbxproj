@@ -30,6 +30,8 @@
 		F8552B07117E5C53006DF6F5 /* PlaceholderThemes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */; };
 		F8552B08117E5C53006DF6F5 /* Syntaxes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF4117E5C4D006DF6F5 /* Syntaxes */; };
 		F8552B09117E5C53006DF6F5 /* TextActions in Copy XML Files */ = {isa = PBXBuildFile; fileRef = F8552AF7117E5C4D006DF6F5 /* TextActions */; };
+		F8912181132ECA7D00A3A865 /* LTXPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8912180132ECA7D00A3A865 /* LTXPreferencesView.xib */; };
+		F8912187132ECAC600A3A865 /* LTXPreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8912186132ECAC600A3A865 /* LTXPreferencesView.m */; };
 		F8CF263A13115E1100E568E0 /* FileActions in Resources */ = {isa = PBXBuildFile; fileRef = F8CF263613115E1100E568E0 /* FileActions */; };
 		F8CF269A1311640300E568E0 /* TextTools in Resources */ = {isa = PBXBuildFile; fileRef = F8CF26971311640300E568E0 /* TextTools */; };
 		F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF26BE1311672200E568E0 /* LTXRunLatexAction.m */; };
@@ -92,6 +94,9 @@
 		F8552AF1117E5C4D006DF6F5 /* PlaceholderThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlaceholderThemes; sourceTree = "<group>"; };
 		F8552AF4117E5C4D006DF6F5 /* Syntaxes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Syntaxes; sourceTree = "<group>"; };
 		F8552AF7117E5C4D006DF6F5 /* TextActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextActions; sourceTree = "<group>"; };
+		F8912180132ECA7D00A3A865 /* LTXPreferencesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTXPreferencesView.xib; sourceTree = "<group>"; };
+		F8912186132ECAC600A3A865 /* LTXPreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTXPreferencesView.m; sourceTree = "<group>"; };
+		F8912196132ECC6900A3A865 /* LTXPreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXPreferencesView.h; sourceTree = "<group>"; };
 		F8CF263613115E1100E568E0 /* FileActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FileActions; sourceTree = "<group>"; };
 		F8CF26971311640300E568E0 /* TextTools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextTools; sourceTree = "<group>"; };
 		F8CF26BD1311672200E568E0 /* LTXRunLatexAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTXRunLatexAction.h; sourceTree = "<group>"; };
@@ -141,6 +146,7 @@
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F8912180132ECA7D00A3A865 /* LTXPreferencesView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 		F8055A82117FB05A003E133D /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				F8912183132ECA8D00A3A865 /* Interface */,
 				F8CF26BC1311672200E568E0 /* File Actions */,
 				F8055A83117FB05A003E133D /* Itemizers */,
 			);
@@ -232,6 +239,15 @@
 				F8CF26971311640300E568E0 /* TextTools */,
 			);
 			name = "XML Based";
+			sourceTree = "<group>";
+		};
+		F8912183132ECA8D00A3A865 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F8912196132ECC6900A3A865 /* LTXPreferencesView.h */,
+				F8912186132ECAC600A3A865 /* LTXPreferencesView.m */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 		F8CF26BC1311672200E568E0 /* File Actions */ = {
@@ -302,6 +318,7 @@
 				F8055A74117FB022003E133D /* page_white_go.png in Resources */,
 				F8CF263A13115E1100E568E0 /* FileActions in Resources */,
 				F8CF269A1311640300E568E0 /* TextTools in Resources */,
+				F8912181132ECA7D00A3A865 /* LTXPreferencesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +334,7 @@
 				F843F5991180931800070EA8 /* LTXInputItem.m in Sources */,
 				F8CF26BF1311672200E568E0 /* LTXRunLatexAction.m in Sources */,
 				F8DE30C5131671D500DEB9B1 /* LTXPreviewAction.m in Sources */,
+				F8912187132ECAC600A3A865 /* LTXPreferencesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

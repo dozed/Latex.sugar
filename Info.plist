@@ -24,5 +24,9 @@
 	<string>1.0</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>PluginPreferencesNibName</key>
+	<string>LTXPreferencesView</string>
+	<key>PluginPreferencesViewController</key>
+	<string>LTXPreferencesViewController</string>
 </dict>
 </plist>
