@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codesense version="1.0">
-    <set name="net.texasexpat.latex.simple">
+    <set name="lang.latex.simple">
 	    <completion string="\maketitle" />
 	    <completion string="\hline" />
 	    <completion string="\newline" />
@@ -33,7 +33,7 @@
 		<completion string="\ENDFOR" />
 	</set>
 
-	<set name="net.texasexpat.latex.zone.equation">
+	<set name="lang.latex.zone.equation">
 		<behavior>
 			<append-static>
 $0
@@ -42,7 +42,7 @@ $0
 		<completion string="\begin{equation}" />
 	</set>
 
-	<set name="net.texasexpat.latex.zone.equationarray">
+	<set name="lang.latex.zone.equationarray">
 		<behavior>
 			<append-static>
 $0
@@ -51,7 +51,7 @@ $0
 		<completion string="\begin{eqnarray}" />
 	</set>
 
-    <set name="net.texasexpat.latex.functions">
+    <set name="lang.latex.functions">
         <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -89,7 +89,7 @@ $0
 		<completion string="\FORALL" />
     </set>
 
-    <set name="net.texasexpat.latex.mathmode.functions">
+    <set name="lang.latex.mathmode.functions">
         <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -109,18 +109,17 @@ $0
 	    <completion string="\sup" />
     </set>
 
-	<set name="net.texasexpat.latex.mathmode.functions.binary">
+	<set name="lang.latex.mathmode.functions.binary">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
 				<transform-into>{${1:arg}}{${2:arg}}</transform-into>
 			</append-dynamic>
 		</behavior>
-	    <completion string="\sum_" />
 	    <completion string="\frac" />
 	</set>
 	
-	<set name="net.texasexpat.latex.mathmode.functions.binaryalt">
+	<set name="lang.latex.mathmode.functions.binaryalt">
 	    <behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
@@ -130,7 +129,14 @@ $0
 	    <completion string="\underbrace" />
 	</set>
 	
-	<set name="net.texasexpat.latex.mathmode.simple">
+	<set name="lang.latex.mathmode.functions.sum">
+	    <behavior>
+			<append-static>{${1:arg}}^{${2:arg}}</append-static>
+		</behavior>
+	    <completion string="\sum_" />
+	</set>
+
+	<set name="lang.latex.mathmode.simple">
 		<completion string="\le" />
 		<completion string="\ge" />
 		<completion string="\neq" />
@@ -154,10 +160,6 @@ $0
 		<completion string="\subset" />
 		<completion string="\supset" />
 		<completion string="\lim" />
-		<completion string="\alpha" />
-		<completion string="\beta" />
-		<completion string="\delta" />
-		<completion string="\varepsilon" />
 		<completion string="\backslash" />
 		<completion string="\lbrace" />
 		<completion string="\rbrace" />
@@ -171,5 +173,63 @@ $0
 		<completion string="\approx" />
 		<completion string="\partial" />
 		<completion string="\emptyset" />
+	</set>
+
+	<set name="lang.latex.mathmode.greek">
+		<completion string="\alpha" />
+		<completion string="\Alpha" />
+		<completion string="\beta" />
+		<completion string="\Beta" />
+		<completion string="\gamma" />
+		<completion string="\Gamma" />
+		<completion string="\delta" />
+		<completion string="\Delta" />
+		<completion string="\epsilon" />
+		<completion string="\varepsilon" />
+		<completion string="\Epsilon" />
+		<completion string="\zeta" />
+		<completion string="\Zeta" />
+		<completion string="\eta" />
+		<completion string="\Eta" />
+		<completion string="\theta" />
+		<completion string="\vartheta" />
+		<completion string="\Theta" />
+		<completion string="\iota" />
+		<completion string="\Iota" />
+		<completion string="\kappa" />
+		<completion string="\varkappa" />
+		<completion string="\Kappa" />
+		<completion string="\lambda" />
+		<completion string="\Lambda" />
+		<completion string="\mu" />
+		<completion string="\Mu" />
+		<completion string="\nu" />
+		<completion string="\Nu" />
+		<completion string="\omicron" />
+		<completion string="\Omicron" />
+		<completion string="\xi" />
+		<completion string="\Xi" />
+		<completion string="\pi" />
+		<completion string="\varpi" />
+		<completion string="\Pi" />
+		<completion string="\rho" />
+		<completion string="\varrho" />
+		<completion string="\Rho" />
+		<completion string="\sigma" />
+		<completion string="\varsigma" />
+		<completion string="\Sigma" />
+		<completion string="\tau" />
+		<completion string="\Tau" />
+		<completion string="\upsilon" />
+		<completion string="\Upsilon" />
+		<completion string="\phi" />
+		<completion string="\varphi" />
+		<completion string="\Phi" />
+		<completion string="\chi" />
+		<completion string="\Chi" />
+		<completion string="\psi" />
+		<completion string="\Psi" />
+		<completion string="\omega" />
+		<completion string="\Omega" />
 	</set>
 </codesense>
