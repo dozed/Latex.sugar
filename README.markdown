@@ -32,4 +32,10 @@ And then link it to your syntaxes directory:
 
 ## Bugs
 
-+ So far all known bugs have been fixed, if you find one, let me know.
++ If you find one, please file a bug report.
+
+## Authors
+
++ pkalkul
++ Trevor Fountain (doches)
++ Stefan Ollinger (dozed)
