@@ -1,0 +1,502 @@
+/*
+  @theme Quiet Light
+  @override-placeholders css, php, php-html, markdown, ee, haskell, bash
+  @author Ian Beck
+*/
+ 
+@base {
+	color: #333;
+	background-color: #f5f5f5;
+	insertion-point-color: #000;
+	selection-background-color: default;
+}
+
+/* @group Generic */
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+comment {
+	color: #aaa;
+	font-style: italic;
+}
+
+string.quoted {
+	color: #448C27;
+}
+
+constant.numeric, literal.numeric, literal.character, literal.keyword {
+	color: #AB6526;
+}
+
+storage.type {
+	color: #7a3e9d;
+}
+
+keyword.control, keyword.modifier,
+keyword.constant, identifier.constant, keyword.definition,
+language.constant {
+	color: #4B83CD;
+}
+
+operator {
+	color: #777;
+}
+
+invalid {
+	color: #600;
+	background: rgba(150, 0, 0, .08);
+}
+
+/* @end */
+
+/* @group HTML */
+
+tag {
+	color: #91B3E0;
+}
+
+entity.name, tag > name {
+	color: #4B83CD;
+	background: #f5f5f5;
+	font-weight: normal;
+}
+
+/* Deprecated elements */
+entity.name[text='applet'],
+entity.name[text='basefont'],
+entity.name[text='center'],
+entity.name[text='dir'],
+entity.name[text='font'],
+entity.name[text='isindex'],
+entity.name[text='menu'],
+entity.name[text='s'],
+entity.name[text='strike'],
+entity.name[text='u'] {
+	background: rgba(150, 0, 0, .08);
+}
+
+entity.character {
+	color: #AB6526;
+}
+
+attribute-name {
+	color: #91B3E0;
+	font-style: italic;
+}
+
+tag.doctype, tag.doctype entity.name {
+	color: #aaa;
+}
+
+/* @end */
+ 
+/* @group CSS */
+
+css {
+	spell-check: disabled;
+}
+
+css punctuation,
+css property-value > punctuation.separator.css,
+css property-value > punctuation.terminator.rule.css {
+	color: #333;
+}
+
+css > property-name {
+	color: #AB6526;
+}
+
+css property-value {
+	color: #448C27;
+}
+
+css.selector, css.selector > entity > punctuation {
+	color: #7a3e9d;
+}
+
+css keyword.important, keyword.important.css {
+	font-weight: bold;
+}
+
+css comment punctunation,
+css comment.block.css,
+css comment punctuation.begin,
+css comment punctuation.end {
+	color: #aaa;
+}
+
+css color,
+css punctuation.definition.constant,
+css group-start.comment.block.css,
+css group-end.comment.block.css {
+	color: #448C27;
+}
+
+css .group-start .name {
+	color: #448C27;
+	font-weight: bold;
+}
+
+embedded.styling.css, embedded.property-list.css {
+	background: #EFE8F3;
+}
+
+/* @end */
+
+/* @group Javascript */
+
+js.embedded {
+	background: #EAEBE6;
+}
+
+js keyword.operator.new, js variable.language {
+	color: #7a3e9d;
+}
+
+js meta, js parameters.begin, js parameters.end, js punctuation.terminator {
+	color: #777;
+}
+
+js entity.name {
+	color: #333;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group PHP */
+
+php delimiter.source, php delimiter.source > keyword.definition,
+php class name, php name, php function > name {
+	color: #AA3731;
+	font-weight: bold;
+}
+
+php keyword.definition, php keyword.function,
+php > keyword.definition {
+	color: #4B83CD;
+}
+
+php modifier, php keyword.constant.class,
+php keyword.modifier {
+	color: #AB6526;
+}
+
+php integer.numeric {
+	color: #AB6526;
+	background-color: #E6EBF2;
+}
+
+php > variable, php string.double > variable {
+	color: #7a3e9d;
+}
+
+php keyword.constant.other {
+	color: #4B83CD;
+}
+
+php operator.pointer, php delimiter.pointer {
+	color: #777;
+}
+
+php identifier.function > name, php literal.keyword {
+	color: #AA3731;
+	font-weight: normal;
+}
+
+php identifier.function {
+	color: #AA3731;
+}
+
+php literal.keyword.bool, php literal.keyword.null {
+	color: #AB6526;
+}
+
+php identifier.function parenthesis, php identifier.function square-brace, php identifier.function comma {
+	color: #333;
+}
+
+container.block.embedded.source.php {
+	background: #E6EBF2;
+}
+
+php variable operator, php function variable, php block variable {
+	color:  #7a3e9d;
+}
+
+php if function parenthesis, php elseif function parenthesis,
+php while function parenthesis, php switch function parenthesis,
+php for function parenthesis, php foreach function parenthesis {
+	color: #555;
+}
+
+php block function function parenthesis {
+	color: #777;
+}
+
+php class.static class.name {
+	color: #AA3731;
+}
+
+php class.static property.name {
+    color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group Regex */
+
+regex operator {
+	color: #B19BBD;
+}
+
+regex.group punctuation.definition, regex anchor, regex escaped, regex.character-class {
+	color: #7a3e9d;
+}
+
+regex.character-class.set {
+	color: #333;
+}
+
+regex.character-class punctuation.definition {
+	color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group ExpressionEngine */
+
+/* This crap cancels out the damned placeholder theme */
+
+ee ee.tag > attribute > attribute-name  {
+	color: #B19BBD;
+	font-weight: normal;
+}
+
+ee ee.tag > attribute { 
+	color: #AB6526;
+}
+
+ee > ee.tag.self-closing.conditional { background: #f5f5f5; }
+
+ee > ee.tag.self-closing,
+ee > ee.tag.self-closing > name, 
+ee > ee.tag.self-closing > punctuation, 
+ee > ee.tag.self-closing attribute-name { color: #7a3e9d;}
+
+ee > ee.tag.self-closing > punctuation.definition {
+	color: #B19BBD;
+}
+
+/* end of the placeholder killer crap */
+
+ee.tag, ee ee.tag > ee.attribute-name, ee.operator,
+ee ee.tag > ee.punctuation.definition {
+	color: #B19BBD;
+}
+
+ee.attribute {
+	color: #AB6526;
+}
+
+ee ee.tag > ee.entity.name, ee ee.tag.conditional, ee ee.tag > name {
+	color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group Markdown */
+
+markdown delimiter, markdown separator, markdown metadata {
+	color: #448C27;
+}
+
+markdown structural.separator {
+	background: #D3E1CD;
+}
+
+markdown header {
+	font-weight: bold;
+}
+
+markdown literal.escape {
+	color: #777;
+}
+
+markdown weight {
+	font-weight: bold;
+}
+
+markdown slant {
+	font-style: italic;
+}
+
+markdown weight slant, markdown slant weight {
+	font-style: italic;
+	font-weight: bold;
+}
+
+markdown code {
+	color: #777;
+}
+
+markdown link {
+	color: #AB6526;
+}
+
+markdown url, markdown email {
+	color: #4B83CD;
+}
+
+markdown literal.title {
+	color: #91B3E0;
+}
+
+markdown keyword.reference {
+	color: #91B583;
+}
+
+markdown image {
+	color: #AB6526;
+}
+
+markdown image delimiter.declarative {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Haskell */
+
+haskell processing, haskell comment.documentation {
+	color: #aaa;
+	font-style: normal;
+}
+
+haskell identifier.module {
+	color: #AA3731;
+	font-weight: bold;
+}
+
+haskell identifier.type {
+	color: #7a3e9d;
+	font-weight: bold;
+}
+
+haskell identifier.function, haskell identifier.operator {
+	color: #333;
+	font-weight: normal;
+}
+
+haskell identifier.variable {
+	color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group Bash */
+
+bash identifier.function {
+	color: #333;
+	font-weight: normal;
+}
+
+bash identifier.variable {
+	color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group Python */
+
+python container name, python function name {
+	color: #AA3731;
+}
+
+python container parameters name {
+	color: #333;
+}
+
+python variable type {
+	color: #7a3e9d;
+}
+
+/* @end */
+
+/* @group AS3 */
+
+as3 keyword.definition.as3, as3 keyword.control.flow {
+	color: #4B83CD;
+}
+
+as3 keyword.definition.class, as3 container.method.call > keyword.definition.function {
+	color: #AA3731;
+}
+
+keyword.operators.as3 {
+	color: #777;
+}
+
+as3 container.method.call > name {
+	color: #333;
+}
+
+as3 container.method > name {
+	color: #7a3e9d;
+}
+
+as3 literal.keyword, as3 integral.value, as3 numeric.value, as3 literal.numeric, as3 literal.numeric > delimiter {
+	color: #AB6526;
+}
+
+/* @end */
+
+/* @group ColdFusion */
+
+cfm.tag, cfm.tag > attribute-name {
+	color: #B19BBD;
+}
+
+cfm.tag > name {
+	color:  #7a3e9d;
+}
+
+cfm operator, cfm keyword {
+	color: #AB6526;
+}
+
+cfml.embedded output {
+	color: #333;
+}
+
+cfml.embedded coldfusion.embedded {
+	color: #AB6526;
+}
+
+cfm function {
+	color:  #AA3731;
+}
+
+function.cfm > parenthesis {
+	color: #AB6526;
+}
+
+/* @end */
+
+/* @group Latex */
+
+latex mathmode {
+	color: #7a3e9d;
+}
+
+latex mathmode delimiter {
+	color: #7a3e9d;
+}
+
+latex mathmode latex identifier.function {
+	color: #7a3e9d;
+}
+
+/* @end */

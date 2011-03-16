@@ -23,11 +23,11 @@
 			<zone name="latex.mathmode.displaymath">
 				<starts-with>
 					<expression>(\$\$|\\\[)</expression>
-					<capture number="1" name="delimiter" />
+					<capture number="1" name="delimiter.tex.mathmode" />
 				</starts-with>
 				<ends-with>
 					<expression>(\$\$|\\\])</expression>
-					<capture number="1" name="delimiter" />
+					<capture number="1" name="delimiter.tex.mathmode" />
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
@@ -36,11 +36,11 @@
 			<zone name="latex.mathmode.math">
 				<starts-with>
 					<expression>(\$|\\\()</expression>
-					<capture number="1" name="delimiter" />
+					<capture number="1" name="delimiter.tex.mathmode" />
 				</starts-with>
 				<ends-with>
 					<expression>(\$|\\\))</expression>
-					<capture number="1" name="delimiter" />
+					<capture number="1" name="delimiter.tex.mathmode" />
 				</ends-with>
 				<subzones>
 				    <include collection="text.latex"/>
