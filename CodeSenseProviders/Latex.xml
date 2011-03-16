@@ -12,10 +12,11 @@
 	</provider>
 
 	<provider>
-		<selector>latex.mathmode.short, latex.mathmode.function</selector>
+		<selector>latex.mathmode</selector>
 		
 		<completions>lang.latex.mathmode.simple</completions>
 		<completions>lang.latex.mathmode.greek</completions>
+		<completions>lang.latex.mathmode.trigonometric</completions>
 		<completions>lang.latex.mathmode.functions</completions>
 		<completions>lang.latex.mathmode.functions.binary</completions>
 		<completions>lang.latex.mathmode.functions.binaryalt</completions>

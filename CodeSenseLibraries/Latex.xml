@@ -107,6 +107,7 @@ $0
 	    <completion string="\min" />
 	    <completion string="\max" />
 	    <completion string="\sup" />
+		<completion string="\sqrt" />
     </set>
 
 	<set name="lang.latex.mathmode.functions.binary">
@@ -173,6 +174,26 @@ $0
 		<completion string="\approx" />
 		<completion string="\partial" />
 		<completion string="\emptyset" />
+		<completion string="\pi" />
+		<completion string="\ln" />
+		<completion string="\pm" />
+	</set>
+
+    <set name="lang.latex.mathmode.trigonometric">
+		<completion string="\sin" />
+		<completion string="\cos" />
+		<completion string="\tan" />
+		<completion string="\cot" />
+		<completion string="\arcsin" />
+		<completion string="\arccos" />
+		<completion string="\arctan" />
+		<completion string="\arccot" />
+		<completion string="\sinh" />
+		<completion string="\conh" />
+		<completion string="\tanh" />
+		<completion string="\coth" />
+		<completion string="\sec" />
+		<completion string="\csc" />
 	</set>
 
 	<set name="lang.latex.mathmode.greek">
