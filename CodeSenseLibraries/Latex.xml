@@ -171,6 +171,7 @@ $0
 		<completion string="\xrightarrow" />
 		<completion string="\subset" />
 		<completion string="\supset" />
+		<completion string="\setminus" />
 		<completion string="\lim" />
 		<completion string="\backslash" />
 		<completion string="\lbrace" />
