@@ -206,6 +206,17 @@ $0
 		<completion string="\sec" />
 		<completion string="\csc" />
 	</set>
+    
+    <set name="lang.latex.mathmode.brackets">
+	    <completion string="\left\{" />
+	    <completion string="\right\}" />
+	    <completion string="\Big\{" />
+	    <completion string="\Big\}" />
+	    <completion string="\left(" />
+	    <completion string="\right)" />
+	    <completion string="\Big[" />
+	    <completion string="\Big]" />
+    </set>
 
 	<set name="lang.latex.mathmode.greek">
 		<completion string="\alpha" />

@@ -21,6 +21,7 @@
 		<completions>lang.latex.mathmode.simple</completions>
 		<completions>lang.latex.mathmode.greek</completions>
 		<completions>lang.latex.mathmode.trigonometric</completions>
+		<completions>lang.latex.mathmode.brackets</completions>
 		<completions>lang.latex.mathmode.functions</completions>
 		<completions>lang.latex.mathmode.functions.binary</completions>
 		<completions>lang.latex.mathmode.functions.binaryalt</completions>
