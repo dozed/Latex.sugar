@@ -3,6 +3,8 @@
 	<provider>
 		<selector>text.latex, latex.part, latex.chapter, latex.section, latex.subsection, latex.subsubsection, latex.paragraph, latex.subparagraph, latex.subsubparagraph</selector>
 		
+		<completions>lang.latex.global.functions</completions>
+
 		<completions>lang.latex.simple</completions>
 		<completions>lang.latex.functions</completions>
 		<completions>lang.latex.zone.equation</completions>
@@ -14,6 +16,8 @@
 	<provider>
 		<selector>latex.mathmode</selector>
 		
+		<completions>lang.latex.global.functions</completions>
+        
 		<completions>lang.latex.mathmode.simple</completions>
 		<completions>lang.latex.mathmode.greek</completions>
 		<completions>lang.latex.mathmode.trigonometric</completions>

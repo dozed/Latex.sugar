@@ -89,6 +89,17 @@ $0
 		<completion string="\FORALL" />
     </set>
 
+    <set name="lang.latex.global.functions">
+        <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:{)|[^:]</matched-suffix>
+				<transform-into>{${0:arg}}</transform-into>
+			</append-dynamic>
+		</behavior>
+	    <completion string="\hspace" />
+		<completion string="\vspace" />
+    </set>
+
     <set name="lang.latex.mathmode.functions">
         <behavior>
 			<append-dynamic>
