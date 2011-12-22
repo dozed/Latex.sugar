@@ -24,7 +24,7 @@ There are textual shortcuts for several of the snippets:
 
 Clone this project somewhere, with the following:
 
-    git clone git://github.com/doches/Latex.sugar.git ./Latex.sugar
+    git clone git://github.com/dozed/Latex.sugar.git ./Latex.sugar
 
 And then link it to your syntaxes directory:
 

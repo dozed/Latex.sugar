@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <itemizer>
 	<recipe name="structural.header.part">
-		<class>LTXSectionItem</class>
+		<class>ESBaseItem</class>
 		<start-selector>part > part:capture(name)</start-selector>
 		<end-selector>part > part:capture(name)</end-selector>
 		<subrecipes>
@@ -9,7 +9,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.chapter">
-		<class>LTXSectionItem</class>
+		<class>ESBaseItem</class>
 		<start-selector>chapter > chapter:capture(name)</start-selector>
 		<end-selector>chapter > chapter:capture(name)</end-selector>
 		<subrecipes>
@@ -17,7 +17,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.section">
-		<class>LTXSectionItem</class>
+		<class>ESBaseItem</class>
 		<start-selector>section > section:capture(name)</start-selector>
 		<end-selector>section > section:capture(name)</end-selector>
 		<subrecipes>
@@ -25,7 +25,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.subsection">
-		<class>LTXSubSectionItem</class>
+		<class>ESBaseItem</class>
 		<start-selector>subsection > subsection:capture(name)</start-selector>
 		<end-selector>subsection > subsection:capture(name)</end-selector>
 		<subrecipes>
@@ -41,7 +41,7 @@
 		</subrecipes>
 	</recipe>
 	<recipe name="structural.header.input">
-		<class>LTXInputItem</class>
+		<class>ESBaseItem</class>
 		<selector>input > input:capture(name)</selector>
 	</recipe>
 </itemizer>

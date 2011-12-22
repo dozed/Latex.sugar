@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <action-recipes>
+  <!--
   <action id="latex.action.LTXRunLatexAction" category="actions.text.Latex/latex.tools.Utilities">
     <class>LTXRunLatexAction</class>
     <title>Run Pdflatex...</title>
@@ -10,4 +11,5 @@
     <title>Preview pdf...</title>
     <key-equivalent>cmd shift P</key-equivalent>
   </action>
+-->
 </action-recipes>
